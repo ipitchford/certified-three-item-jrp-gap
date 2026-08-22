@@ -1,0 +1,121 @@
+{
+  "certificate": "certificates/near_extremal_three_item_gap_witness.holding_box.certificate.json",
+  "checks": [
+    {
+      "integrality_gap": {
+        "decimal": "1.148728797527763799712155273787517234422",
+        "expression": "18165022525273745669805546664020125000/15813151515281580201106871089914821679",
+        "rational": "18165022525273745669805546664020125000/15813151515281580201106871089914821679"
+      },
+      "signs": [
+        -1,
+        -1,
+        -1
+      ],
+      "vertex_certificate_passed": true,
+      "winner_cap_bound": true
+    },
+    {
+      "integrality_gap": {
+        "decimal": "1.148728756262340598029867305017991459019",
+        "expression": "42385089767280467089496814114156665000/36897387251965671565443546396940027947",
+        "rational": "42385089767280467089496814114156665000/36897387251965671565443546396940027947"
+      },
+      "signs": [
+        -1,
+        -1,
+        1
+      ],
+      "vertex_certificate_passed": true,
+      "winner_cap_bound": true
+    },
+    {
+      "integrality_gap": {
+        "decimal": "1.148728861223364243165640107772951320639",
+        "expression": "127155231383488907984556922648140875000/110692118632827008497816673629403751753",
+        "rational": "127155231383488907984556922648140875000/110692118632827008497816673629403751753"
+      },
+      "signs": [
+        -1,
+        1,
+        -1
+      ],
+      "vertex_certificate_passed": true,
+      "winner_cap_bound": true
+    },
+    {
+      "integrality_gap": {
+        "decimal": "1.148728819957904469083968601252556388559",
+        "expression": "42385114336138029854802846114156665000/36897406593917653928799738396940027947",
+        "rational": "42385114336138029854802846114156665000/36897406593917653928799738396940027947"
+      },
+      "signs": [
+        -1,
+        1,
+        1
+      ],
+      "vertex_certificate_passed": true,
+      "winner_cap_bound": true
+    },
+    {
+      "integrality_gap": {
+        "decimal": "1.148728739213924412511108743291519557566",
+        "expression": "127155201077264247845056582101594035000/110692104007319089564165853082856911753",
+        "rational": "127155201077264247845056582101594035000/110692104007319089564165853082856911753"
+      },
+      "signs": [
+        1,
+        -1,
+        -1
+      ],
+      "vertex_certificate_passed": true,
+      "winner_cap_bound": true
+    },
+    {
+      "integrality_gap": {
+        "decimal": "1.148728697948570676568886720957443478794",
+        "expression": "42385104234063143141636065931974385000/36897401718748347617582798214757747947",
+        "rational": "42385104234063143141636065931974385000/36897401718748347617582798214757747947"
+      },
+      "signs": [
+        1,
+        -1,
+        1
+      ],
+      "vertex_certificate_passed": true,
+      "winner_cap_bound": true
+    },
+    {
+      "integrality_gap": {
+        "decimal": "1.148728802909530450752928361018182076528",
+        "expression": "127155274783836936140974678101594035000/110692162033175036654234429082856911753",
+        "rational": "127155274783836936140974678101594035000/110692162033175036654234429082856911753"
+      },
+      "signs": [
+        1,
+        1,
+        -1
+      ],
+      "vertex_certificate_passed": true,
+      "winner_cap_bound": true
+    },
+    {
+      "integrality_gap": {
+        "decimal": "1.148728761644140142384135164604012935936",
+        "expression": "42385128802920705906942097931974385000/36897421060700329980938990214757747947",
+        "rational": "42385128802920705906942097931974385000/36897421060700329980938990214757747947"
+      },
+      "signs": [
+        1,
+        1,
+        1
+      ],
+      "vertex_certificate_passed": true,
+      "winner_cap_bound": true
+    }
+  ],
+  "conclusion": "The declared policy is globally optimal throughout the holding-cost box: every fixed schedule cost is affine in H, the declared cap-bound winner is the same fixed schedule throughout the box, and all eight exact-oracle vertex certificates select that winner.",
+  "passed": true,
+  "schema": "jrp3.holding-box-verification.v1",
+  "vertex_count": 8
+}

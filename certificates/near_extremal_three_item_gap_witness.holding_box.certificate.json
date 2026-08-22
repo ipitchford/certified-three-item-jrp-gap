@@ -1,0 +1,245 @@
+{
+  "base_gap": {
+    "decimal": "1.148728779585935553603584836333608644455",
+    "expression": "1798701855222341185000/1565819440747964323563",
+    "rational": "1798701855222341185000/1565819440747964323563"
+  },
+  "base_instance": "data/near_extremal_three_item_gap_witness.json",
+  "base_instance_sha256": "6115e6a7c7d0c049c5ce74fcdf8de34ed5aa33165aa6c119815265d28e2e89c9",
+  "conclusion": "The (3,3,2) policy is globally optimal throughout the declared holding-cost box, conditional on the candidate finite-closure theorem and the producer-side vertex certificates.",
+  "does_not_establish": [
+    "robustness to cap, demand, lead-time, service, or fixed-cost misspecification",
+    "operational benefit",
+    "independent reproduction"
+  ],
+  "holding_intervals": [
+    {
+      "item": "item-1",
+      "lower": "16650284039080387687178579/42415680511027631400000000",
+      "upper": "5550108185612834141988521/14138560170342543800000000"
+    },
+    {
+      "item": "item-2",
+      "lower": "141385429675710262/212078402555138157",
+      "upper": "47128591243713538/70692800851712719"
+    },
+    {
+      "item": "item-3",
+      "lower": "149445874660126503603779386913/98680080708905784452100000000",
+      "upper": "49815412776768978297599596787/32893360236301928150700000000"
+    }
+  ],
+  "proof": {
+    "schedule_affinity": "For every fixed feasible schedule, the exact objective is affine in H.",
+    "vertex_principle": "For every competing fixed schedule, competitor cost minus winner cost is affine. Exact global optimality at all eight vertices makes that difference nonnegative at every vertex, and therefore throughout their convex hull.",
+    "winner_affinity": "The (3,3,2) winner is cap-bound at every vertex, so the same fixed schedule and its affine cost apply throughout the box."
+  },
+  "radius_construction": {
+    "active_runner_thresholds": [
+      {
+        "base_margin": "1401151/632447392500",
+        "base_margin_decimal": "2.2154427650676098e-06",
+        "holding_slope_difference": [
+          "88170000/92711227",
+          "-32650000/92711227",
+          "55520000/278133681"
+        ],
+        "primitive_multipliers": [
+          2,
+          1,
+          1
+        ],
+        "relative_box_crossover_threshold": "172027715176/70692800851712719"
+      },
+      {
+        "base_margin": "1401151/632447392500",
+        "base_margin_decimal": "2.2154427650676098e-06",
+        "holding_slope_difference": [
+          "2082/6041",
+          "2082/6041",
+          "-1877/18123"
+        ],
+        "primitive_multipliers": [
+          2,
+          2,
+          1
+        ],
+        "relative_box_crossover_threshold": "28023020000/6601556141989471"
+      },
+      {
+        "base_margin": "1401151/632447392500",
+        "base_margin_decimal": "2.2154427650676098e-06",
+        "holding_slope_difference": [
+          "27760000/92711227",
+          "-32650000/92711227",
+          "55520000/278133681"
+        ],
+        "primitive_multipliers": [
+          3,
+          2,
+          2
+        ],
+        "relative_box_crossover_threshold": "21503464397/6353923556022281"
+      },
+      {
+        "base_margin": "1401151/632447392500",
+        "base_margin_decimal": "2.2154427650676098e-06",
+        "holding_slope_difference": [
+          "2082/6041",
+          "-1877/12082",
+          "-1877/18123"
+        ],
+        "primitive_multipliers": [
+          4,
+          3,
+          2
+        ],
+        "relative_box_crossover_threshold": "28023020000/5005344491989471"
+      }
+    ],
+    "rule": "one half of the smallest active-runner relative-box crossover threshold"
+  },
+  "relative_holding_radius": "86013857588/70692800851712719",
+  "relative_holding_radius_decimal": "0.00000121672725584073513351400494076",
+  "schema": "jrp3.holding-box-certificate.v1",
+  "scope": "simultaneous relative perturbations of all three holding coefficients",
+  "vertex_gap_range": {
+    "maximum": {
+      "decimal": "1.148728861223364243165640107772951320639",
+      "expression": "127155231383488907984556922648140875000/110692118632827008497816673629403751753",
+      "rational": "127155231383488907984556922648140875000/110692118632827008497816673629403751753"
+    },
+    "minimum": {
+      "decimal": "1.148728697948570676568886720957443478794",
+      "expression": "42385104234063143141636065931974385000/36897401718748347617582798214757747947",
+      "rational": "42385104234063143141636065931974385000/36897401718748347617582798214757747947"
+    }
+  },
+  "vertices": [
+    {
+      "certificate": "certificates/robustness/near_extremal_three_item_gap_witness/vertex-mmm.certificate.json",
+      "gap": {
+        "decimal": "1.148728797527763799712155273787517234422",
+        "expression": "18165022525273745669805546664020125000/15813151515281580201106871089914821679",
+        "rational": "18165022525273745669805546664020125000/15813151515281580201106871089914821679"
+      },
+      "instance": "data/robustness/near_extremal_three_item_gap_witness/vertex-mmm.json",
+      "signs": [
+        -1,
+        -1,
+        -1
+      ],
+      "verification": "certificates/robustness/near_extremal_three_item_gap_witness/vertex-mmm.verification.json"
+    },
+    {
+      "certificate": "certificates/robustness/near_extremal_three_item_gap_witness/vertex-mmp.certificate.json",
+      "gap": {
+        "decimal": "1.148728756262340598029867305017991459019",
+        "expression": "42385089767280467089496814114156665000/36897387251965671565443546396940027947",
+        "rational": "42385089767280467089496814114156665000/36897387251965671565443546396940027947"
+      },
+      "instance": "data/robustness/near_extremal_three_item_gap_witness/vertex-mmp.json",
+      "signs": [
+        -1,
+        -1,
+        1
+      ],
+      "verification": "certificates/robustness/near_extremal_three_item_gap_witness/vertex-mmp.verification.json"
+    },
+    {
+      "certificate": "certificates/robustness/near_extremal_three_item_gap_witness/vertex-mpm.certificate.json",
+      "gap": {
+        "decimal": "1.148728861223364243165640107772951320639",
+        "expression": "127155231383488907984556922648140875000/110692118632827008497816673629403751753",
+        "rational": "127155231383488907984556922648140875000/110692118632827008497816673629403751753"
+      },
+      "instance": "data/robustness/near_extremal_three_item_gap_witness/vertex-mpm.json",
+      "signs": [
+        -1,
+        1,
+        -1
+      ],
+      "verification": "certificates/robustness/near_extremal_three_item_gap_witness/vertex-mpm.verification.json"
+    },
+    {
+      "certificate": "certificates/robustness/near_extremal_three_item_gap_witness/vertex-mpp.certificate.json",
+      "gap": {
+        "decimal": "1.148728819957904469083968601252556388559",
+        "expression": "42385114336138029854802846114156665000/36897406593917653928799738396940027947",
+        "rational": "42385114336138029854802846114156665000/36897406593917653928799738396940027947"
+      },
+      "instance": "data/robustness/near_extremal_three_item_gap_witness/vertex-mpp.json",
+      "signs": [
+        -1,
+        1,
+        1
+      ],
+      "verification": "certificates/robustness/near_extremal_three_item_gap_witness/vertex-mpp.verification.json"
+    },
+    {
+      "certificate": "certificates/robustness/near_extremal_three_item_gap_witness/vertex-pmm.certificate.json",
+      "gap": {
+        "decimal": "1.148728739213924412511108743291519557566",
+        "expression": "127155201077264247845056582101594035000/110692104007319089564165853082856911753",
+        "rational": "127155201077264247845056582101594035000/110692104007319089564165853082856911753"
+      },
+      "instance": "data/robustness/near_extremal_three_item_gap_witness/vertex-pmm.json",
+      "signs": [
+        1,
+        -1,
+        -1
+      ],
+      "verification": "certificates/robustness/near_extremal_three_item_gap_witness/vertex-pmm.verification.json"
+    },
+    {
+      "certificate": "certificates/robustness/near_extremal_three_item_gap_witness/vertex-pmp.certificate.json",
+      "gap": {
+        "decimal": "1.148728697948570676568886720957443478794",
+        "expression": "42385104234063143141636065931974385000/36897401718748347617582798214757747947",
+        "rational": "42385104234063143141636065931974385000/36897401718748347617582798214757747947"
+      },
+      "instance": "data/robustness/near_extremal_three_item_gap_witness/vertex-pmp.json",
+      "signs": [
+        1,
+        -1,
+        1
+      ],
+      "verification": "certificates/robustness/near_extremal_three_item_gap_witness/vertex-pmp.verification.json"
+    },
+    {
+      "certificate": "certificates/robustness/near_extremal_three_item_gap_witness/vertex-ppm.certificate.json",
+      "gap": {
+        "decimal": "1.148728802909530450752928361018182076528",
+        "expression": "127155274783836936140974678101594035000/110692162033175036654234429082856911753",
+        "rational": "127155274783836936140974678101594035000/110692162033175036654234429082856911753"
+      },
+      "instance": "data/robustness/near_extremal_three_item_gap_witness/vertex-ppm.json",
+      "signs": [
+        1,
+        1,
+        -1
+      ],
+      "verification": "certificates/robustness/near_extremal_three_item_gap_witness/vertex-ppm.verification.json"
+    },
+    {
+      "certificate": "certificates/robustness/near_extremal_three_item_gap_witness/vertex-ppp.certificate.json",
+      "gap": {
+        "decimal": "1.148728761644140142384135164604012935936",
+        "expression": "42385128802920705906942097931974385000/36897421060700329980938990214757747947",
+        "rational": "42385128802920705906942097931974385000/36897421060700329980938990214757747947"
+      },
+      "instance": "data/robustness/near_extremal_three_item_gap_witness/vertex-ppp.json",
+      "signs": [
+        1,
+        1,
+        1
+      ],
+      "verification": "certificates/robustness/near_extremal_three_item_gap_witness/vertex-ppp.verification.json"
+    }
+  ],
+  "winner": [
+    3,
+    3,
+    2
+  ]
+}

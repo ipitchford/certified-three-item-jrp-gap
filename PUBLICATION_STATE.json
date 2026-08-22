@@ -1,0 +1,270 @@
+{
+  "assuranceYield": {
+    "findings": [
+      {
+        "id": "editor-deterministic-closure-v0.3.1",
+        "decision": "PASS_WITH_NOTES",
+        "record": "reviews/confirmation/DETERMINISTIC_REPAIR_CLOSURE.md",
+        "scope": "bounded deterministic repair; no third scientific review"
+      }
+    ],
+    "newCriticalByReview": [
+      {
+        "decision": "changed",
+        "minutes": 40,
+        "p0": 0,
+        "p1": 6,
+        "rawTokens": 0,
+        "recordedAt": "2026-08-22T11:32:01.891Z",
+        "regression": "five separately conducted internal role reports unanimously Major Revision; no P0",
+        "reviewId": "confirmation-v0.3.1-frozen",
+        "scientificBytes": "unchanged"
+      }
+    ],
+    "stoppingReason": "Substantive and confirmation review caps reached; all six confirmation P1 groups closed by deterministic evidence and Editor verification. External assurance remains unassessed."
+  },
+  "authorization": {
+    "basis": "User instruction on 22 August 2026 to complete required revisions and take the final candidate through the Evidence Press publishing workflow; no outreach authorised.",
+    "evidencePressDeploy": true,
+    "publicGitHub": true,
+    "zenodoDraft": true,
+    "zenodoPublish": true
+  },
+  "budget": {
+    "elapsedMinutes": 47.33,
+    "hardStopMinutes": 240,
+    "hardStopRawTokens": 1000000,
+    "lastCheckedAt": "2026-08-22T10:40:54.231Z",
+    "profile": "full-candidate",
+    "rawTokensCurrent": null,
+    "rawTokensStart": null,
+    "rawTokensUsed": 0,
+    "startedAt": "2026-08-22T09:53:34.159Z",
+    "state": "within-budget",
+    "targetMinutes": 180,
+    "targetRawTokens": 500000,
+    "tokenAccountingMethod": "runtime-fork-aware-counter-or-unavailable",
+    "uncachedInputTokensUsed": null
+  },
+  "closeout": {
+    "backupAudit": null,
+    "durableNote": null,
+    "finalElapsedMinutes": null,
+    "finalRawTokensUsed": null,
+    "handoff": null,
+    "handoffRequired": null,
+    "modelReviews": null,
+    "modelTurns": null
+  },
+  "coordination": {
+    "currentPhaseModelTurns": 1,
+    "endingAgentAudit": null,
+    "latestHandoff": null,
+    "maxModelTurnsPerPhase": 50,
+    "maxSubagents": 5,
+    "orphanedUiAgents": [],
+    "phaseTaskIds": [],
+    "startingAgentAudit": {
+      "agrees": true,
+      "apiRunning": 0,
+      "at": "2026-08-22T09:53:40.816Z",
+      "uiRunning": 0
+    },
+    "subagentsUsed": 5
+  },
+  "evidencePress": {
+    "branch": null,
+    "browserQa": null,
+    "canonicalUrl": null,
+    "checkout": null,
+    "contentCommitA": null,
+    "deploymentUrl": null,
+    "ledgerCommitB": null,
+    "mergedMainCommit": null,
+    "pageStructure": {
+      "contract": "canonical",
+      "exceptions": [],
+      "reason": null
+    },
+    "paperJsonUrl": null,
+    "protocolReadback": null,
+    "publicationIntegrity": null,
+    "pullRequests": [],
+    "readbackCommitC": null,
+    "readbackLedgerCommitD": null,
+    "repository": "https://github.com/ipitchford/evidence-press-site"
+  },
+  "github": {
+    "assets": [],
+    "ciStatus": null,
+    "mainCommit": null,
+    "releaseUrl": null,
+    "repository": "https://github.com/ipitchford/certified-three-item-jrp-gap",
+    "tag": null,
+    "tagPayloadCommit": null
+  },
+  "integrityGate": {
+    "citations": "pass-with-partial-novelty-and-no-priority-finding",
+    "claimBoundary": "pass-with-notes",
+    "decision": "PASS_WITH_NOTES",
+    "licensing": "pass-CC0-research-MIT-code",
+    "manifest": "pre-identity 140-entry clean-extraction pass; final identity manifest pending",
+    "negativeControls": "pass-21-test-suite",
+    "pdf": "pass-16-pages-zero-raw-tex-visual-qa; untagged limitation disclosed",
+    "replay": "ordinary-optimized-clean-extraction pass; 61 generated hashes",
+    "unresolved": []
+  },
+  "media": {
+    "art": null,
+    "audio": null,
+    "ogImage": null,
+    "transcript": null,
+    "youtubeThumbnail": null,
+    "youtubeVideo": null
+  },
+  "phases": [
+    {
+      "completedAt": "2026-08-22T10:40:54.038Z",
+      "evidence": [
+        "v0.3.0 archive preserved; v0.3.1 additive successor isolated"
+      ],
+      "id": 0,
+      "name": "recover-and-isolate",
+      "startedAt": "2026-08-22T10:40:54.038Z",
+      "status": "passed"
+    },
+    {
+      "completedAt": "2026-08-22T12:35:59Z",
+      "evidence": [
+        "21-test ordinary/optimized/fresh-extraction replays pass; 61 generated hashes; 140-entry extracted manifest; 16-page PDF preflight and visual QA; Editor deterministic closure PASS_WITH_NOTES"
+      ],
+      "id": 1,
+      "name": "integrity-gate",
+      "startedAt": "2026-08-22T10:40:54.100Z",
+      "status": "passed"
+    },
+    {
+      "completedAt": null,
+      "evidence": [],
+      "id": 2,
+      "name": "public-research-repository",
+      "startedAt": null,
+      "status": "pending"
+    },
+    {
+      "completedAt": null,
+      "evidence": [],
+      "id": 3,
+      "name": "github-zenodo-identity",
+      "startedAt": null,
+      "status": "pending"
+    },
+    {
+      "completedAt": null,
+      "evidence": [],
+      "id": 4,
+      "name": "evidence-press-authoring",
+      "startedAt": null,
+      "status": "pending"
+    },
+    {
+      "completedAt": null,
+      "evidence": [],
+      "id": 5,
+      "name": "communication-assets",
+      "startedAt": null,
+      "status": "pending"
+    },
+    {
+      "completedAt": null,
+      "evidence": [],
+      "id": 6,
+      "name": "composite-seal-and-ci",
+      "startedAt": null,
+      "status": "pending"
+    },
+    {
+      "completedAt": null,
+      "evidence": [],
+      "id": 7,
+      "name": "guarded-deploy-and-readback",
+      "startedAt": null,
+      "status": "pending"
+    },
+    {
+      "completedAt": null,
+      "evidence": [],
+      "id": 8,
+      "name": "publication-ledger-and-closeout",
+      "startedAt": null,
+      "status": "pending"
+    }
+  ],
+  "project": {
+    "slug": "certified-three-item-jrp-gap",
+    "sourcePath": null,
+    "sourceSha256": null,
+    "status": "unrefereed-candidate",
+    "title": "A Candidate Exact Three-Item Independent-Cap Oracle"
+  },
+  "reviewPolicy": {
+    "confirmationReviewsUsed": 1,
+    "editorialDecision": "PASS_WITH_NOTES",
+    "entries": [
+      {
+        "id": "round1-v0.3.0",
+        "kind": "substantive",
+        "question": "What claim, proof, software, logistics, and governance revisions are required before Evidence Press publication?",
+        "recordedAt": "2026-08-22T10:40:54.166Z",
+        "result": "Major Revision / HOLD_FOR_REPAIR: R1-R8 and DA-M1-DA-M7"
+      },
+      {
+        "id": "confirmation-v0.3.1-frozen",
+        "kind": "confirmation",
+        "question": "Does frozen v0.3.1 fully close R1-R8 and DA-M1-DA-M7 with no new P0/P1 issue?",
+        "recordedAt": "2026-08-22T11:32:01.821Z",
+        "result": "Major Revision / HOLD_FOR_REPAIR: no P0; six consolidated P1 verifier, portfolio, replay, package, PDF, and governance blockers"
+      },
+      {
+        "id": "editor-deterministic-closure-v0.3.1",
+        "kind": "editor-verification-not-scientific-review",
+        "question": "Do deterministic repairs close C-P1-01 through C-P1-06 without changing theorem, witness, or conclusion?",
+        "recordedAt": "2026-08-22T12:35:59Z",
+        "result": "PASS_WITH_NOTES: six P1 groups closed; no external assurance upgrade"
+      }
+    ],
+    "exceptions": [],
+    "frozenSubmissionSha256": "b51486d01b7aaddfad108c10f8ddbc8aa4fdfe27e3dc27d040b64e6a649ecdf3",
+    "maxConfirmationReviews": 1,
+    "maxSubstantiveReviews": 1,
+    "requiredRoles": [
+      "editor-in-chief",
+      "methodology-specialist",
+      "domain-specialist",
+      "applications-specialist",
+      "devils-advocate"
+    ],
+    "responseMatrix": "reviews/round-1/RESPONSE_MATRIX_TEMPLATE.md",
+    "roleReports": [
+      {"role": "editor-in-chief", "path": "reviews/confirmation/reports/editor_in_chief.md", "sha256": "76408000c6253463157f3de5fd2f09a7f54031e4c5d491b295b717609fb155af"},
+      {"role": "methodology-specialist", "path": "reviews/confirmation/reports/methodology_specialist.md", "sha256": "6c9294488185766a56391f98650782facf229c5f64fad2bcdd2986572d78ceac"},
+      {"role": "domain-specialist", "path": "reviews/confirmation/reports/domain_specialist.md", "sha256": "502277ef02506b973690cbbb3d5f920a11ee5cc8b94f0f8f4ecb94ef0f700b55"},
+      {"role": "applications-specialist", "path": "reviews/confirmation/reports/applications_specialist.md", "sha256": "6bbf65047f33815418b394880ca79a3b77aaba605acf06d4c7f476244bf16c5c"},
+      {"role": "devils-advocate", "path": "reviews/confirmation/reports/devils_advocate.md", "sha256": "5753e1fc05f9949b34f1203580ff63f4da81cfcc9bcba41f45b9720f6356e614"}
+    ],
+    "substantiveReviewsUsed": 1
+  },
+  "route": "full-candidate",
+  "schemaVersion": "2.0",
+  "updatedAt": "2026-08-22T12:35:59Z",
+  "zenodo": {
+    "assetsByteIdentical": null,
+    "conceptDoi": null,
+    "depositionId": null,
+    "instance": "https://zenodo.org",
+    "recordId": null,
+    "recordUrl": null,
+    "status": null,
+    "versionDoi": null
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "draftSchema": "evidencepress.prepare-only-meta.v1",
+  "slug": "certified-three-item-jrp-gap",
+  "title": "A Candidate Exact Three-Item Independent-Cap Oracle",
+  "shortTitle": "Certified three-item JRP gap",
+  "oneLine": "A producer-side candidate exact oracle gives a rational three-item max-frequency relaxation-gap lower bound of 1.1487291464748206... and a verifier-checked route to instance-specific logistics stress tests.",
+  "abstract": "This anonymous unrefereed successor candidate constructs an exact three-item independent-cap oracle for continuous-time common-origin fixed-interval joint replenishment. A finite primitive-triple enumeration and strict global tail candidate theorem support an exact rational bundled-instance ratio of 1.1487291464748205845..., 3.3132 percent above the producer-side unrefereed two-item upper endpoint. A monotonicity lemma propagates the candidate lower bound to every fixed item count of at least three. An exact five-policy family explains the witness, while sixteen exact vertex certificates prove two conservative inner boxes under simultaneous relative holding-cost perturbation only. The bundled five-policy sets are synthetic regression fixtures; every fitted logistics instance must regenerate and verifier-check its own candidate set across primitive and boundary regimes. The 14.8729 percent lower-bound optimism is not a savings claim. Independent rerun, reimplementation, formal verification, external specialist review, external editorial peer review, operational validation, and field impact are not assessed.",
+  "narrationFile": "narration.txt",
+  "datePrepared": "2026-08-22",
+  "version": "0.3.1-candidate",
+  "doi": null,
+  "conceptDoi": null,
+  "zenodoUrl": null,
+  "pdfUrl": null,
+  "repoUrl": "https://github.com/ipitchford/certified-three-item-jrp-gap",
+  "releaseUrl": null,
+  "authors": ["Anonymous"],
+  "status": "prepare-only-unrefereed-candidate",
+  "math": true,
+  "keywords": [
+    "joint replenishment",
+    "inventory",
+    "exact optimisation",
+    "integrality gap",
+    "resource constraints",
+    "logistics",
+    "certificate",
+    "unrefereed candidate"
+  ],
+  "keyResults": [
+    "The bundled rational instance has exact gap 7732648297718008589674913778809/6731480890380196637385597557508 = 1.1487291464748205845....",
+    "The lower bound is 3.3132 percent above the producer-side unrefereed two-item upper endpoint and propagates to every fixed item count n at least 3, subject to the candidate proof boundary.",
+    "The finite closure enumerates 49,981 primitive triples at minimal cutoff S=21 and proves a strict omitted-triple tail margin.",
+    "Sixteen exact vertex certificates prove two conservative simultaneous holding-cost inner boxes; the frozen five-policy sets are synthetic regression fixtures only.",
+    "The exact oracle is proposed as a logistics stress test and regression benchmark; no field saving or operational impact is claimed."
+  ],
+  "provenance": {
+    "aiGenerated": true,
+    "aiAssisted": true,
+    "generatedBy": ["AI systems under human direction", "OpenAI Codex"],
+    "humanRole": "The user set the objective. Ian Pitchford supplied research direction and is the intended maintainer and publisher. The scholarly creator is cited as Anonymous.",
+    "disclosure": "AI systems assisted mathematical audit, code hardening, source research, logistics translation, drafting, and replay within one producer-coordinated workflow. These activities are not independent review."
+  },
+  "statusDetail": "Prepare-only Anonymous unrefereed successor candidate at PASS_WITH_NOTES after bounded Editor closure. Version 0.3.1 passes 21-test ordinary, optimized, and fresh-extraction same-producer replay, a 61-file generated ledger, a 140-entry extracted manifest, and the rebuilt PDF gates. No successor DOI, public tag, public Evidence Press page, unaffiliated rerun, independent reimplementation, formal verification, external specialist review, external editorial peer review, operational validation, or impact evidence exists yet.",
+  "assurance": {
+    "availability": {"state": "local-candidate", "note": "No immutable public successor identity has been created."},
+    "internalReplay": {"state": "pass-pre-identity", "note": "Ordinary, optimized, and fresh-extraction same-producer replay pass all 21 tests and the 61-file generated ledger; public-identity changes still require final coupled gates."},
+    "independentRerun": {"state": "not-assessed"},
+    "independentReimplementation": {"state": "not-assessed"},
+    "formalVerification": {"state": "not-assessed"},
+    "specialistReview": {"state": "not-assessed"},
+    "editorialPeerReview": {"state": "not-assessed"},
+    "dataEnvironmentReproducibility": {"state": "partial"},
+    "semanticValidation": {"state": "partial"},
+    "noveltyAssessment": {"state": "partial"},
+    "priorityAssessment": {"state": "not-assessed"}
+  },
+  "operatingModel": {
+    "version": "1.0",
+    "workId": "ep-work:certified-three-item-jrp-gap",
+    "attemptIds": ["ep-attempt:certified-three-item-jrp-gap"],
+    "aims": ["science", "productivity"],
+    "artifactRoles": ["research-output", "evidence-assessment", "method-demonstration", "communication"],
+    "lineageId": "joint-replenishment-exact-certification-programme",
+    "accelerationPrimitives": ["structural-compression", "research-lineage-reuse", "certified-decision-margin", "assurance-vector", "agent-readable-research-object"],
+    "decisionObject": {
+      "type": "certificate-and-field-gate",
+      "description": "An exact rational three-item gap certificate, fixed-item monotonicity implication, exact holding-box comparison, verifier-checked instance-specific candidate-set builder, and staged decision rule for whether a logistics triplet warrants operational evaluation.",
+      "scope": "Three-item stationary common-origin periodic policies with rational independent frequency caps; logistics use is diagnostic until omitted constraints and outcomes are evaluated separately."
+    },
+    "bottleneckTargeted": ["discovery", "assurance", "publication", "translation"],
+    "semanticBridge": {
+      "state": "explicit-partial",
+      "description": "Common and item-specific model coefficients map to incremental replenishment-event, handling, and deterministic holding costs only after domain validation. The exact oracle maps to a triplet benchmark, not directly to executed orders.",
+      "remainingRisks": [
+        "Frequency caps may be invalid proxies for pointwise transport or dock capacity.",
+        "Stochastic demand, lead times, service, order rounding, minimum quantities, and nonlinear tariffs are outside the certificate.",
+        "No representative company dataset or field comparison has been evaluated."
+      ]
+    },
+    "humanJudgmentGates": [
+      "Confirm that the three items share an incremental common event and every coefficient has defensible operational semantics.",
+      "Keep exact synthetic lower-bound optimism separate from savings or field performance.",
+      "Require simulation and shadow evaluation before any order execution.",
+      "Require preregistered service stop rules and a defensible comparator before causal or net-value language.",
+      "Confirm Anonymous scholarly attribution, licences, immutable identifiers, and release authority before publication."
+    ],
+    "parentLinks": [
+      {
+        "relation": "extends-result",
+        "workId": null,
+        "legacyReleaseSlug": "certified-two-item-jrp",
+        "externalUrl": "https://evidencepress.org/releases/certified-two-item-jrp/",
+        "inheritedClaim": "The parent supplies the exact two-item interval, resource-to-cap reduction, and certificate-first model boundary.",
+        "inheritedAssuranceCeiling": "The parent is an unrefereed producer-side candidate. Reuse is dependency evidence, not independent confirmation."
+      }
+    ],
+    "assuranceTarget": {
+      "dimensions": ["independentRerun", "independentReimplementation", "formalVerification", "specialistReview", "dataEnvironmentReproducibility", "semanticValidation", "noveltyAssessment", "priorityAssessment"],
+      "nextAction": "Obtain unaffiliated mathematical review and clean-room replay; for any eligible fitted triplet, regenerate its candidate set and run the preregistered logistics stress-test and shadow protocol.",
+      "claimCeiling": "A producer-side unrefereed exact-computation candidate for a bundled three-item lower bound and a proposed logistics evaluation route; not the exact global constant, independent assurance, operational validation, savings, or field impact."
+    },
+    "impactClaims": [
+      {
+        "id": "jrp3-operations-no-impact",
+        "aim": "productivity",
+        "outcome": "Better replenishment plans or lower net logistics cost",
+        "setting": "Eligible three-SKU clusters with a shared replenishment event",
+        "status": "NO_IMPACT_EVIDENCE",
+        "designClass": "none",
+        "comparator": "No incumbent-plan comparison has been run.",
+        "estimand": "No plan-change rate, service effect, avoided loss, implementation cost, or net value has been estimated.",
+        "evidenceRefs": [],
+        "registeredDesignRef": "LOGISTICS_DEPLOYMENT_PROTOCOL.md",
+        "independentAssessment": null
+      }
+    ]
+  }
+}

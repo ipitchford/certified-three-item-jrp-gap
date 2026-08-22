@@ -1,0 +1,59 @@
+{
+  "schema": "evidencepress.confirmation-review-record.v1",
+  "candidate": "exact-three-item-jrp-applications-v0.3.1-candidate",
+  "reviewedAt": "2026-08-22",
+  "target": {
+    "archive": "frozen-submission.zip",
+    "archiveSha256": "b51486d01b7aaddfad108c10f8ddbc8aa4fdfe27e3dc27d040b64e6a649ecdf3",
+    "manifestSha256": "fa5a3537a362cde4b154fbe69accc453bf813eacf19d73867b6085e60c507199",
+    "paperMarkdownSha256": "4f5c2d29df62eca54b9f38d95505785acf84f88ef5cb5f4cb876cfbc16cfa6ee",
+    "paperPdfSha256": "87f990da25b3cdaa4dfec4c44456ab0840b70a3a3f9dd256e937e8e887a73985",
+    "manifestEntries": 123
+  },
+  "reports": [
+    {
+      "role": "editor-in-chief",
+      "path": "reports/editor_in_chief.md",
+      "sha256": "76408000c6253463157f3de5fd2f09a7f54031e4c5d491b295b717609fb155af",
+      "recommendation": "Major Revision",
+      "confidence": 5
+    },
+    {
+      "role": "methodology-specialist",
+      "path": "reports/methodology_specialist.md",
+      "sha256": "6c9294488185766a56391f98650782facf229c5f64fad2bcdd2986572d78ceac",
+      "recommendation": "Major Revision",
+      "confidence": 5
+    },
+    {
+      "role": "domain-specialist",
+      "path": "reports/domain_specialist.md",
+      "sha256": "502277ef02506b973690cbbb3d5f920a11ee5cc8b94f0f8f4ecb94ef0f700b55",
+      "recommendation": "Major Revision",
+      "confidence": 4
+    },
+    {
+      "role": "applications-specialist",
+      "path": "reports/applications_specialist.md",
+      "sha256": "6bbf65047f33815418b394880ca79a3b77aaba605acf06d4c7f476244bf16c5c",
+      "recommendation": "Major Revision",
+      "confidence": 5
+    },
+    {
+      "role": "devils-advocate",
+      "path": "reports/devils_advocate.md",
+      "sha256": "5753e1fc05f9949b34f1203580ff63f4da81cfcc9bcba41f45b9720f6356e614",
+      "recommendation": "Major Revision",
+      "confidence": 5
+    }
+  ],
+  "decision": {
+    "path": "EDITORIAL_DECISION_CONFIRMATION.md",
+    "sha256": "1cfbc446411a4d34ae56c5f554fcf8444a65612b7d896f7d4f31f9463e799923",
+    "recommendation": "Major Revision",
+    "releaseState": "HOLD_FOR_REPAIR",
+    "p0": 0,
+    "consolidatedP1": 6
+  },
+  "assuranceBoundary": "Five separately conducted model-mediated internal role reports; not external specialist review, unaffiliated reproduction, independent reimplementation, formal verification, or journal peer review."
+}

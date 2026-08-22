@@ -1,0 +1,92 @@
+{
+  "schema": "evidencepress.editorial-review.v1",
+  "recorded_at": "2026-08-22T09:37:07Z",
+  "round": 1,
+  "review_type": "substantive-journal-like-internal-editorial-review",
+  "frozen_submission": {
+    "candidate": "exact-three-item-jrp-applications-v0.3.0-candidate",
+    "archive": "exact-three-item-jrp-applications-v0.3.0-candidate.zip",
+    "archive_sha256": "ff9b6c816b6351e2cffd974063ec573c202ee126a7043ea0e347201357c5b1d9",
+    "paper_pdf_sha256": "055379f2a30722eda42b3f5af5eec0acfeaced32571b20c4341692becb370655",
+    "paper_markdown_sha256": "ba009f221b79665fe765506c558dadf76f151ebf52e1168ae0a887d2f0882831",
+    "manifest_entries": 108,
+    "manifest_passed": true,
+    "modified_by_reviewers": false
+  },
+  "reviewers": [
+    {
+      "role": "editor-in-chief",
+      "report": "reports/EIC-independent.md",
+      "sha256": "f066442619694421491241105e6d821f76e0c85c44700c91fb79364cab446d47",
+      "recommendation": "major-revision",
+      "confidence": 4
+    },
+    {
+      "role": "methodology-specialist",
+      "report": "reports/R1-methodology.md",
+      "sha256": "fe7ca41da7d3223f40caf849428c8588a63268a5b66a6ca8e1d4c856cb8f40e5",
+      "recommendation": "major-revision",
+      "confidence": 4
+    },
+    {
+      "role": "domain-specialist",
+      "report": "reports/R2-domain.md",
+      "sha256": "5bc4ed46047945242f3d52c9f7d7a48a0b6ee5f1780e48f7132dcb35182dfe2f",
+      "recommendation": "major-revision",
+      "confidence": 4
+    },
+    {
+      "role": "applications-specialist",
+      "report": "reports/R3-applications.md",
+      "sha256": "15be507c598c9ab8066577efe4761869d8a0d4415af10fcf3f98874874e76e9f",
+      "recommendation": "major-revision",
+      "confidence": 4
+    },
+    {
+      "role": "devils-advocate",
+      "report": "reports/DA-adversarial.md",
+      "sha256": "6d78a9b68816f34c5a31d445ae19a0e8136c91cd02623ac32e7ca6a0d912b4c1",
+      "recommendation": "major-revision",
+      "confidence": 4,
+      "critical_findings": 0,
+      "major_findings": 7,
+      "minor_findings": 5
+    }
+  ],
+  "editorial_decision": {
+    "decision": "major-revision",
+    "evidence_press_state": "HOLD_FOR_REPAIR",
+    "decision_file": "EDITORIAL_DECISION_ROUND_1.md",
+    "decision_sha256": "ef81092486342392f1ee06e69cc5232b319f642d998d465ff1b254c51c3eea85",
+    "required_revision_ids": ["R1", "R2", "R3", "R4", "R5", "R6", "R7", "R8"],
+    "confirmation_review_required": true,
+    "maximum_post_confirmation_state_without_external_assurance": "PASS_WITH_NOTES"
+  },
+  "round_yield": {
+    "new_fatal_p0_findings": 0,
+    "new_release_blocking_p1_groups": 8,
+    "scientific_or_release_bytes_changed": false,
+    "release_decision_changed": true
+  },
+  "coordination": {
+    "separately_conducted_internal_role_reports": 5,
+    "editorial_synthesis_attempts": 2,
+    "first_synthesis_attempt": "interrupted after exceeding the bounded window without filing a decision",
+    "second_synthesis_attempt": "completed decision file, then interrupted after the file was sealed",
+    "active_subagents_at_close": 0
+  },
+  "assurance_boundary": {
+    "internal_editorial_review": "completed-round-1",
+    "specialist_review": "not-assessed-externally",
+    "editorial_peer_review": "not-assessed-externally",
+    "independent_rerun": "not-assessed",
+    "independent_reimplementation": "not-assessed",
+    "formal_verification": "not-assessed"
+  },
+  "approval_standard": {
+    "policy": "EVIDENCE_PRESS_EDITORIAL_APPROVAL_STANDARD.md",
+    "policy_sha256": "08ba5cfd6192131b1f0c0badc3264d6fd6ac3afb02e2b7660337dad774b1e29a",
+    "installed_skill_version": "2.3.0",
+    "installed_skill_sha256": "c97358fd2274c99058d0fb603c10a55a9def45773e73cb81f397598b54f7d7af"
+  }
+}

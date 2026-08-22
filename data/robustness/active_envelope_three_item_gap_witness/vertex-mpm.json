@@ -1,0 +1,26 @@
+{
+  "K0": "1",
+  "currency_unit": "normalised cost unit",
+  "items": [
+    {
+      "H": "71577998429014338981064551748003703741479/182357417241982102438210346542920000000000",
+      "K": "0",
+      "frequency_cap": "56015/92726",
+      "name": "item-1"
+    },
+    {
+      "H": "1013096762553089835751148971191/1519645143683184186985086221191",
+      "K": "0",
+      "frequency_cap": "153463/200000",
+      "name": "item-2"
+    },
+    {
+      "H": "6424416147223825117958263943040506387760941777/4243183563095060550583497448533934020000000000",
+      "K": "0",
+      "frequency_cap": "1",
+      "name": "item-3"
+    }
+  ],
+  "name": "active-envelope-rational-three-cap-gap-witness-holding-vertex-mpm",
+  "time_unit": "normalised time unit"
+}

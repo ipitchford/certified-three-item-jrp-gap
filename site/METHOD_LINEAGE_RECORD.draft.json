@@ -1,0 +1,13 @@
+{
+  "id": "joint-replenishment-exact-certification-programme",
+  "label": "Exact joint-replenishment certification programme",
+  "root": "certified-two-item-jrp",
+  "members": [
+    "certified-two-item-jrp",
+    "certified-three-item-jrp-gap"
+  ],
+  "sharedDependency": "The successor reuses the parent model, relaxation, cap-reduction boundary, exact two-item interval, and certificate-first assurance conventions.",
+  "reuseClaim": "The successor extends the mathematical object from two to three items and introduces a new triple-tail architecture and logistics handoff.",
+  "independenceBoundary": "This parent-child lineage is not independent confirmation. Shared assumptions, code patterns, and producer coordination may propagate a common defect.",
+  "status": "proposed-until-public-integration"
+}

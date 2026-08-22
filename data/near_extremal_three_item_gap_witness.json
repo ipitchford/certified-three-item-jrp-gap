@@ -1,0 +1,26 @@
+{
+  "name": "near-extremal-rational-three-cap-gap-witness",
+  "K0": "1",
+  "time_unit": "normalised time unit",
+  "currency_unit": "normalised cost unit",
+  "items": [
+    {
+      "name": "item-1",
+      "K": "0",
+      "H": "235530409/600000000",
+      "frequency_cap": "6041/10000"
+    },
+    {
+      "name": "item-2",
+      "K": "0",
+      "H": "2/3",
+      "frequency_cap": "15347/20000"
+    },
+    {
+      "name": "item-3",
+      "K": "0",
+      "H": "2114020871923/1395900000000",
+      "frequency_cap": "1"
+    }
+  ]
+}

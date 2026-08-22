@@ -1,0 +1,122 @@
+{
+  "schema": "evidencepress.claims.v1",
+  "release": "0.3.1-candidate",
+  "creator": "Anonymous",
+  "claims": [
+    {
+      "id": "jrp3-gap-witness",
+      "statement": "The bundled active-envelope rational three-item independent-cap instance has relaxation value 12099233027737989052666993/3000320647128487500000000 and exact common-origin fixed-interval optimum 50387704513257323196307343/10877191205396850000000000, so Gamma_(3,box) is at least 7732648297718008589674913778809/6731480890380196637385597557508.",
+      "status": "producer-certified-candidate",
+      "evidence": [
+        "data/active_envelope_three_item_gap_witness.json",
+        "certificates/active_envelope_three_item_gap_witness.certificate.json",
+        "certificates/active_envelope_three_item_gap_witness.verification.json"
+      ],
+      "doesNotEstablish": [
+        "the exact three-item constant",
+        "the unrestricted multi-item constant",
+        "independent reproduction",
+        "field benefit"
+      ]
+    },
+    {
+      "id": "jrp3-breaks-two-item-ceiling",
+      "statement": "The candidate exact three-item lower bound exceeds the producer-side unrefereed two-item upper endpoint, so the two-item interval cannot supply the unrestricted multi-item constant if both candidate derivations are correct.",
+      "status": "candidate-deduction",
+      "evidence": [
+        "CLAIMS.json#jrp3-gap-witness",
+        "https://evidencepress.org/releases/certified-two-item-jrp/"
+      ],
+      "doesNotEstablish": [
+        "a matching multi-item upper bound",
+        "absolute novelty or priority"
+      ]
+    },
+    {
+      "id": "relaxation-optimism",
+      "statement": "On the normalized synthetic witness, the exact-to-relaxed ratio is 1.1487291464748205845..., equivalent to 14.8729146475% optimism relative to the relaxed denominator and 12.9472771655% shortfall relative to the exact optimum.",
+      "status": "derived-model-metric",
+      "evidence": [
+        "certificates/active_envelope_three_item_gap_witness.certificate.json"
+      ],
+      "doesNotEstablish": [
+        "14.87% cost savings",
+        "forecast accuracy",
+        "service improvement"
+      ]
+    },
+    {
+      "id": "fixed-n-monotonicity-and-barrier",
+      "statement": "For the independent-cap model, Gamma_(n+1,box) is at least Gamma_(n,box). Therefore the certified lower bound applies to every fixed n at least 3, and no universal inequality C*(I) <= alpha L(I) against this relaxation can use a smaller alpha.",
+      "status": "candidate-deduction",
+      "evidence": [
+        "paper/three_item_jrp_gap_and_logistics.md#43-fixed-item-monotonicity-and-relaxation-barrier",
+        "docs/three_item_oracle_note.md#9-fixed-item-monotonicity-and-holding-box-robustness",
+        "CLAIMS.json#jrp3-gap-witness"
+      ],
+      "doesNotEstablish": [
+        "the exact value for any n at least 3",
+        "a lower bound for algorithms analysed against stronger relaxations",
+        "a matching upper bound"
+      ]
+    },
+    {
+      "id": "active-envelope-family",
+      "statement": "Four neighbouring primitive policies are exactly equal on the declared one-parameter rational family, and the bundled rational witness lies strictly on the (3,3,2)-winner side of the explicit crossover polynomial.",
+      "status": "producer-side-exact-derivation",
+      "evidence": [
+        "analysis/active_envelope_analysis.json",
+        "data/active_envelope_three_item_gap_witness.json",
+        "tests/test_oracle.py"
+      ],
+      "doesNotEstablish": [
+        "global optimality of the stationary family point over all three-item parameters",
+        "the exact three-item constant",
+        "independent mathematical review"
+      ]
+    },
+    {
+      "id": "holding-box-robustness",
+      "statement": "The (3,3,2) policy is globally optimal throughout each of two declared simultaneous holding-cost boxes because exact global certificates select the same cap-bound schedule at all eight vertices.",
+      "status": "producer-certified-candidate",
+      "evidence": [
+        "certificates/active_envelope_three_item_gap_witness.holding_box.certificate.json",
+        "certificates/active_envelope_three_item_gap_witness.holding_box.verification.json",
+        "certificates/near_extremal_three_item_gap_witness.holding_box.certificate.json",
+        "certificates/near_extremal_three_item_gap_witness.holding_box.verification.json"
+      ],
+      "doesNotEstablish": [
+        "robustness to frequency caps or setup costs",
+        "robustness to stochastic demand, lead time, service, or omitted constraints",
+        "operational value"
+      ]
+    },
+    {
+      "id": "logistics-benchmark-use",
+      "statement": "The oracle can serve as an exact triplet stress test and planning-software regression fixture when the declared stationary periodic model is a defensible abstraction.",
+      "status": "proposed-application",
+      "evidence": [
+        "LOGISTICS_DEPLOYMENT_PROTOCOL.md",
+        "SOURCES.md"
+      ],
+      "doesNotEstablish": [
+        "operational validation",
+        "adoption",
+        "net value",
+        "causal impact"
+      ]
+    }
+  ],
+  "assurance": {
+    "internalReplay": "passed",
+    "independentRerun": "not-assessed",
+    "independentReimplementation": "not-assessed",
+    "formalVerification": "not-assessed",
+    "specialistReview": "not-assessed",
+    "editorialPeerReview": "not-assessed",
+    "semanticValidation": "partial",
+    "noveltyAssessment": "partial",
+    "priorityAssessment": "not-assessed",
+    "operationalImpact": "not-assessed"
+  }
+}

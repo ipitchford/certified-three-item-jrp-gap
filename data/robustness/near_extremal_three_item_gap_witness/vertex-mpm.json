@@ -1,0 +1,26 @@
+{
+  "K0": "1",
+  "currency_unit": "normalised cost unit",
+  "items": [
+    {
+      "H": "16650284039080387687178579/42415680511027631400000000",
+      "K": "0",
+      "frequency_cap": "6041/10000",
+      "name": "item-1"
+    },
+    {
+      "H": "47128591243713538/70692800851712719",
+      "K": "0",
+      "frequency_cap": "15347/20000",
+      "name": "item-2"
+    },
+    {
+      "H": "149445874660126503603779386913/98680080708905784452100000000",
+      "K": "0",
+      "frequency_cap": "1",
+      "name": "item-3"
+    }
+  ],
+  "name": "near-extremal-rational-three-cap-gap-witness-holding-vertex-mpm",
+  "time_unit": "normalised time unit"
+}

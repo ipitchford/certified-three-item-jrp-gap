@@ -1,0 +1,97 @@
+{
+  "schema": "jrp3.replay-receipt.v5",
+  "recorded_at": "2026-08-22T12:35:59Z",
+  "stage": "pre-public-identity-editor-closure",
+  "environment": {
+    "platform": "macOS-26.5.2-arm64-arm-64bit-Mach-O",
+    "python": "3.14.6",
+    "sympy": "1.14.0",
+    "mpmath": "1.3.0",
+    "pandoc": "3.9",
+    "weasyprint": "68.1"
+  },
+  "ordinary": {
+    "command": "./scripts/reproduce.sh",
+    "passed": true,
+    "tests": 21,
+    "test_runtime_seconds": 105.792,
+    "pipeline_runtime_seconds": 270.03,
+    "point_certificates": 3,
+    "holding_box_vertices": 16,
+    "verification_checks_per_point_certificate": 49
+  },
+  "optimized": {
+    "command": "PYTHONOPTIMIZE=2 ./scripts/reproduce.sh",
+    "passed": true,
+    "tests": 21,
+    "test_runtime_seconds": 106.323,
+    "pipeline_runtime_seconds": 284.66,
+    "point_certificates": 3,
+    "holding_box_vertices": 16,
+    "verification_checks_per_point_certificate": 49
+  },
+  "mode_comparison": {
+    "generated_artifacts_compared": 61,
+    "ordinary_and_optimized_sha256_lists_identical": true,
+    "generated_artifact_ledger_sha256": "e29ddecee55b00cd855751ef71d2770cf35b9f771ea1535b4441c22acfd31196",
+    "absolute_workstation_paths_absent_from_machine_readable_outputs": true
+  },
+  "clean_extraction": {
+    "archive_sha256": "42a6f8e93c656658ebd191c375bb0a564cfa130fdb23220b64a486594146ac5c",
+    "manifest_entries_checked_before_replay": 140,
+    "manifest_sha256": "8df1d9e1285efd9b4cedeae25b14246bc5667dceda832f45d85fa07164050966",
+    "manifest_passed_before_replay": true,
+    "ordinary_replay_passed": true,
+    "tests": 21,
+    "test_runtime_seconds": 102.483,
+    "pipeline_runtime_seconds": 288.88,
+    "generated_artifact_hashes_passed": 61,
+    "state": "passed"
+  },
+  "portfolio_completeness": {
+    "schema": "jrp3.policy-portfolio.v3",
+    "registered_relative_tolerance": "1/1000000",
+    "portfolios": 2,
+    "primitive_cutoff_S": 21,
+    "enumerated_primitive_triples_per_portfolio": 49981,
+    "boundary_regimes_per_portfolio": 4,
+    "included_policies_per_portfolio": 5,
+    "excluded_finite_policies_per_portfolio": 49980,
+    "tail_excludes_all_omitted_primitive_policies_within_tolerance": true,
+    "whole_document_verification_passed": true
+  },
+  "certificates": {
+    "active_envelope_sha256": "28bde0196a427604bb70e487cb5c63f992cc31393959f4ca22975740bd0e6c9b",
+    "active_envelope_verification_sha256": "f5f16b578be121e0a9eb74751f3664f21781e649d27a7bb8d4bace3a7d17119b",
+    "active_holding_box_sha256": "e400695904b9d80c9662f0ad1afb8ff17b00b4657f0ca77d430e9b7c92df58fb",
+    "active_holding_box_verification_sha256": "1645cdf0c59e7e7e5a3fa88b3b28836086ca287f9f0b54b758e300b90da1ff79",
+    "margin_holding_box_sha256": "3dd049b7bcf051215b1233a0a150270ec8b807368dd15e3c82d5d43e20057813",
+    "margin_holding_box_verification_sha256": "8a8a7ba028532661ad3fe9d612d3a469af65084eebd9f2387c8f590bbb36d07d"
+  },
+  "analysis": {
+    "policy_portfolio_sha256": "4c2ae65575dd93e7d3a60e7824a196c571ced347a033669bec2e039ce0ad09cb",
+    "policy_portfolio_verification_sha256": "46df63e5380f030110595752d0e70b62c1b30b38d9b3461c3112fe5912e66cd9"
+  },
+  "paper": {
+    "source_sha256": "ab0a1f72ee15b802a5df3726757acfaa3dbc39eaaef16ba2afc0de21ef6a34e9",
+    "pdf_sha256": "19e57b44446c28ceefca0a841425b95b0cd0db44b1f8c07b1c8fdb7722898c6a",
+    "pages": 16,
+    "bytes": 138706,
+    "raw_tex_findings": 0,
+    "fonts_embedded": true,
+    "tagged_pdf": false,
+    "accessible_source": "paper/three_item_jrp_gap_and_logistics.md",
+    "visual_qa": "all 16 pages inspected; comparison table legible; qquadH3 leakage removed"
+  },
+  "editorial": {
+    "confirmation_decision": "Major Revision / HOLD_FOR_REPAIR",
+    "confirmation_decision_sha256": "1cfbc446411a4d34ae56c5f554fcf8444a65612b7d896f7d4f31f9463e799923",
+    "deterministic_closure": "reviews/confirmation/DETERMINISTIC_REPAIR_CLOSURE.md",
+    "closure_decision": "PASS_WITH_NOTES",
+    "external_assurance_upgraded": false
+  },
+  "lineage": {
+    "frozen_v0_3_0_archive_sha256": "ff9b6c816b6351e2cffd974063ec573c202ee126a7043ea0e347201357c5b1d9"
+  },
+  "assurance_boundary": "Same-producer solver-independent replay and structured internal journal-like review only; no unaffiliated rerun, independent reimplementation, proof-assistant formalisation, external specialist/editorial peer review, field validation, or priority finding."
+}

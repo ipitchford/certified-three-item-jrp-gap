@@ -1,0 +1,590 @@
+{
+  "portfolios": [
+    {
+      "boundary_policies": [],
+      "completeness_certificate": {
+        "all_boundary_regimes_classified": true,
+        "boundary_comparators": [
+          {
+            "cost": {
+              "decimal": "5.404053281842740019038217356140892739095",
+              "expression": "751724704454190244389065483959/139103866162818065962500000000",
+              "rational": "751724704454190244389065483959/139103866162818065962500000000"
+            },
+            "inside_registered_relative_tolerance": false,
+            "regime": "pairwise-incommensurable closure",
+            "relative_regret": {
+              "decimal": "0.1665727065476897259804640578903373381367",
+              "expression": "1288048155732274342993872028699/7732648297718008589674913778809",
+              "rational": "1288048155732274342993872028699/7732648297718008589674913778809"
+            }
+          },
+          {
+            "cost": {
+              "decimal": "4.871493142005646778818555766651695642782",
+              "expression": "1471893398927080257119631/302144200149912500000000",
+              "rational": "1471893398927080257119631/302144200149912500000000"
+            },
+            "cutoff_R": 5,
+            "inside_registered_relative_tolerance": false,
+            "optimal_reduced_pairs": [
+              [
+                1,
+                1
+              ]
+            ],
+            "regime": "one-pair closure (0, 1)",
+            "relative_regret": {
+              "decimal": "0.05160897630161677996937274475374719115057",
+              "expression": "2600457848117566059999373/50387704513257323196307343",
+              "rational": "2600457848117566059999373/50387704513257323196307343"
+            }
+          },
+          {
+            "cost": {
+              "decimal": "4.935230908235826565907390242384641429370",
+              "expression": "10573792871428459/2142512289300000",
+              "rational": "10573792871428459/2142512289300000"
+            },
+            "cutoff_R": 6,
+            "inside_registered_relative_tolerance": false,
+            "optimal_reduced_pairs": [
+              [
+                1,
+                2
+              ]
+            ],
+            "regime": "one-pair closure (0, 2)",
+            "relative_regret": {
+              "decimal": "0.06536804464949405828936444370231057119039",
+              "expression": "505468099184065009291462721191/7732648297718008589674913778809",
+              "rational": "505468099184065009291462721191/7732648297718008589674913778809"
+            }
+          },
+          {
+            "cost": {
+              "decimal": "4.863184205143220047883389590924955781435",
+              "expression": "17632594822136234507342657/3625730401798950000000000",
+              "rational": "17632594822136234507342657/3625730401798950000000000"
+            },
+            "cutoff_R": 5,
+            "inside_registered_relative_tolerance": false,
+            "optimal_reduced_pairs": [
+              [
+                1,
+                1
+              ]
+            ],
+            "regime": "one-pair closure (1, 2)",
+            "relative_regret": {
+              "decimal": "0.04981532652456835857356517291028783713951",
+              "expression": "2510079953151380325720628/50387704513257323196307343",
+              "rational": "2510079953151380325720628/50387704513257323196307343"
+            }
+          }
+        ],
+        "candidate_classes": [
+          "fully commensurable primitive triples",
+          "three one-pair closure regimes",
+          "pairwise-incommensurable closure",
+          "omitted primitive-triple tail"
+        ],
+        "enumerated_primitive_triples": 49981,
+        "excluded_boundary_policy_count": 4,
+        "excluded_finite_policy_count": 49980,
+        "excluded_primitive_triple_count": 49976,
+        "included_boundary_policy_count": 0,
+        "included_policy_count": 5,
+        "included_primitive_triple_count": 5,
+        "minimum_excluded_regime": "primitive triple (4, 3, 3)",
+        "minimum_excluded_relative_regret": {
+          "decimal": "0.009202236145976325684804854973462289983104",
+          "expression": "463679555784670981317657/50387704513257323196307343",
+          "rational": "463679555784670981317657/50387704513257323196307343"
+        },
+        "portfolio_cost_threshold": {
+          "decimal": "4.632423384812923239714947230226805890895",
+          "expression": "50387754900961836453630539307343/10877191205396850000000000000000",
+          "rational": "50387754900961836453630539307343/10877191205396850000000000000000"
+        },
+        "primitive_cutoff_S": 21,
+        "tail_excludes_all_omitted_primitive_policies_within_tolerance": true,
+        "tail_lower_bound": {
+          "decimal": "4.636864204214122372036912532382515334717",
+          "expression": "17632594822136234507342657*sqrt(110)/39883034419788450000000000",
+          "minimal_polynomial": "14460513041182092950335843212750000000000000000000*x**2 - 310908400161625547421514269436835004464047611819649"
+        }
+      },
+      "instance": "data/active_envelope_three_item_gap_witness.json",
+      "instance_sha256": "cbf7353ae4cd8c26831eae60f74dbdce08d745297df54af15237007dc70f09ff",
+      "label": "strongest active-envelope witness",
+      "optimal_policies": [
+        [
+          3,
+          3,
+          2
+        ]
+      ],
+      "portfolio_role": "frozen synthetic regression fixture only; do not transfer these policies to an operational instance",
+      "primitive_triple_policies": [
+        {
+          "absolute_regret": {
+            "decimal": "0.0000000001754690825417941243769180392688536981654",
+            "expression": "1908610761442657/10877191205396850000000000",
+            "rational": "1908610761442657/10877191205396850000000000"
+          },
+          "cost": {
+            "decimal": "4.632418752569639928085895810502037805044",
+            "expression": "129347322893/27922200000",
+            "kind": "rational",
+            "value": "129347322893/27922200000"
+          },
+          "frequencies": [
+            "153463/400000",
+            "153463/200000",
+            "153463/200000"
+          ],
+          "inside_registered_relative_tolerance": true,
+          "primitive_multipliers": [
+            2,
+            1,
+            1
+          ],
+          "relative_regret": {
+            "decimal": "0.00000000003787850190596575912761948181871187017689",
+            "expression": "1908610761442657/50387704513257323196307343",
+            "rational": "1908610761442657/50387704513257323196307343"
+          },
+          "scale_mode": "cap",
+          "t": "200000/153463"
+        },
+        {
+          "absolute_regret": {
+            "decimal": "0.0000000001754690825417941243769180392688536981654",
+            "expression": "1908610761442657/10877191205396850000000000",
+            "rational": "1908610761442657/10877191205396850000000000"
+          },
+          "cost": {
+            "decimal": "4.632418752569639928085895810502037805044",
+            "expression": "129347322893/27922200000",
+            "kind": "rational",
+            "value": "129347322893/27922200000"
+          },
+          "frequencies": [
+            "1/2",
+            "1/2",
+            "1"
+          ],
+          "inside_registered_relative_tolerance": true,
+          "primitive_multipliers": [
+            2,
+            2,
+            1
+          ],
+          "relative_regret": {
+            "decimal": "0.00000000003787850190596575912761948181871187017689",
+            "expression": "1908610761442657/50387704513257323196307343",
+            "rational": "1908610761442657/50387704513257323196307343"
+          },
+          "scale_mode": "cap",
+          "t": "1"
+        },
+        {
+          "absolute_regret": {
+            "decimal": "0.0000000001754690825417941243769180392688536981654",
+            "expression": "1908610761442657/10877191205396850000000000",
+            "rational": "1908610761442657/10877191205396850000000000"
+          },
+          "cost": {
+            "decimal": "4.632418752569639928085895810502037805044",
+            "expression": "129347322893/27922200000",
+            "kind": "rational",
+            "value": "129347322893/27922200000"
+          },
+          "frequencies": [
+            "153463/300000",
+            "153463/200000",
+            "153463/200000"
+          ],
+          "inside_registered_relative_tolerance": true,
+          "primitive_multipliers": [
+            3,
+            2,
+            2
+          ],
+          "relative_regret": {
+            "decimal": "0.00000000003787850190596575912761948181871187017689",
+            "expression": "1908610761442657/50387704513257323196307343",
+            "rational": "1908610761442657/50387704513257323196307343"
+          },
+          "scale_mode": "cap",
+          "t": "100000/153463"
+        },
+        {
+          "absolute_regret": {
+            "decimal": "0",
+            "expression": "0",
+            "rational": "0"
+          },
+          "cost": {
+            "decimal": "4.632418752394170845544101686125119765775",
+            "expression": "50387704513257323196307343/10877191205396850000000000",
+            "kind": "rational",
+            "value": "50387704513257323196307343/10877191205396850000000000"
+          },
+          "frequencies": [
+            "56015/92726",
+            "56015/92726",
+            "168045/185452"
+          ],
+          "inside_registered_relative_tolerance": true,
+          "primitive_multipliers": [
+            3,
+            3,
+            2
+          ],
+          "relative_regret": {
+            "decimal": "0",
+            "expression": "0",
+            "rational": "0"
+          },
+          "scale_mode": "cap",
+          "t": "92726/168045"
+        },
+        {
+          "absolute_regret": {
+            "decimal": "0.0000000001754690825417941243769180392688536981654",
+            "expression": "1908610761442657/10877191205396850000000000",
+            "rational": "1908610761442657/10877191205396850000000000"
+          },
+          "cost": {
+            "decimal": "4.632418752569639928085895810502037805044",
+            "expression": "129347322893/27922200000",
+            "kind": "rational",
+            "value": "129347322893/27922200000"
+          },
+          "frequencies": [
+            "1/2",
+            "2/3",
+            "1"
+          ],
+          "inside_registered_relative_tolerance": true,
+          "primitive_multipliers": [
+            4,
+            3,
+            2
+          ],
+          "relative_regret": {
+            "decimal": "0.00000000003787850190596575912761948181871187017689",
+            "expression": "1908610761442657/50387704513257323196307343",
+            "rational": "1908610761442657/50387704513257323196307343"
+          },
+          "scale_mode": "cap",
+          "t": "1/2"
+        }
+      ],
+      "registered_relative_cost_tolerance": "1/1000000",
+      "registered_relative_cost_tolerance_percent": "0.0001%",
+      "schema": "jrp3.certified-policy-portfolio.v2",
+      "winner": [
+        3,
+        3,
+        2
+      ]
+    },
+    {
+      "boundary_policies": [],
+      "completeness_certificate": {
+        "all_boundary_regimes_classified": true,
+        "boundary_comparators": [
+          {
+            "cost": {
+              "decimal": "5.404501706648784149262578890873427688607",
+              "expression": "699426840629161259521/129415601769300000000",
+              "rational": "699426840629161259521/129415601769300000000"
+            },
+            "inside_registered_relative_tolerance": false,
+            "regime": "pairwise-incommensurable closure",
+            "relative_regret": {
+              "decimal": "0.1665527089969621824177499761132182216364",
+              "expression": "299578666665142593563/1798701855222341185000",
+              "rational": "299578666665142593563/1798701855222341185000"
+            }
+          },
+          {
+            "cost": {
+              "decimal": "4.871930895437501902579193573005362655519",
+              "expression": "41083199883461843/8432631900000000",
+              "rational": "41083199883461843/8432631900000000"
+            },
+            "cutoff_R": 5,
+            "inside_registered_relative_tolerance": false,
+            "optimal_reduced_pairs": [
+              [
+                1,
+                1
+              ]
+            ],
+            "regime": "one-pair closure (0, 1)",
+            "relative_regret": {
+              "decimal": "0.05159818473676568650938462738960421449358",
+              "expression": "6047419731030529/117202179919355000",
+              "rational": "6047419731030529/117202179919355000"
+            }
+          },
+          {
+            "cost": {
+              "decimal": "4.935692307415213548368687151095245268478",
+              "expression": "10573673069231/2142287730000",
+              "rational": "10573673069231/2142287730000"
+            },
+            "cutoff_R": 6,
+            "inside_registered_relative_tolerance": false,
+            "optimal_reduced_pairs": [
+              [
+                1,
+                2
+              ]
+            ],
+            "regime": "one-pair closure (0, 2)",
+            "relative_regret": {
+              "decimal": "0.06536097951589676175748136294282017691469",
+              "expression": "23512983022878589/359740371044468237",
+              "rational": "23512983022878589/359740371044468237"
+            }
+          },
+          {
+            "cost": {
+              "decimal": "4.863662209661968050567937158504452210229",
+              "expression": "2050673655001/421631595000",
+              "rational": "2050673655001/421631595000"
+            },
+            "cutoff_R": 5,
+            "inside_registered_relative_tolerance": false,
+            "optimal_reduced_pairs": [
+              [
+                1,
+                1
+              ]
+            ],
+            "regime": "one-pair closure (1, 2)",
+            "relative_regret": {
+              "decimal": "0.04981340265788743739532261591674994748908",
+              "expression": "1167647876141/23440435983871",
+              "rational": "1167647876141/23440435983871"
+            }
+          }
+        ],
+        "candidate_classes": [
+          "fully commensurable primitive triples",
+          "three one-pair closure regimes",
+          "pairwise-incommensurable closure",
+          "omitted primitive-triple tail"
+        ],
+        "enumerated_primitive_triples": 49981,
+        "excluded_boundary_policy_count": 4,
+        "excluded_finite_policy_count": 49980,
+        "excluded_primitive_triple_count": 49976,
+        "included_boundary_policy_count": 0,
+        "included_policy_count": 5,
+        "included_primitive_triple_count": 5,
+        "minimum_excluded_regime": "primitive triple (4, 3, 3)",
+        "minimum_excluded_relative_regret": {
+          "decimal": "0.009202212747745924581283130466153258040447",
+          "expression": "431407757647/46880871967742",
+          "rational": "431407757647/46880871967742"
+        },
+        "portfolio_cost_threshold": {
+          "decimal": "4.632887197868197367696476035356569202710",
+          "expression": "23440459424306983871/5059579140000000000",
+          "rational": "23440459424306983871/5059579140000000000"
+        },
+        "primitive_cutoff_S": 21,
+        "tail_excludes_all_omitted_primitive_policies_within_tolerance": true,
+        "tail_lower_bound": {
+          "decimal": "4.637319963640238935951653550250796527176",
+          "expression": "2050673655001*sqrt(110)/4637947545000",
+          "minimal_polynomial": "195550522092468427500000*x**2 - 4205262439315160372310001"
+        }
+      },
+      "instance": "data/near_extremal_three_item_gap_witness.json",
+      "instance_sha256": "6115e6a7c7d0c049c5ce74fcdf8de34ed5aa33165aa6c119815265d28e2e89c9",
+      "label": "less-fragile v0.2 witness",
+      "optimal_policies": [
+        [
+          3,
+          3,
+          2
+        ]
+      ],
+      "portfolio_role": "frozen synthetic regression fixture only; do not transfer these policies to an operational instance",
+      "primitive_triple_policies": [
+        {
+          "absolute_regret": {
+            "decimal": "0.000002215442765067609951447463671849987111774",
+            "expression": "1401151/632447392500",
+            "rational": "1401151/632447392500"
+          },
+          "cost": {
+            "decimal": "4.632884780428397449674045418726269790100",
+            "expression": "1293408773/279180000",
+            "kind": "rational",
+            "value": "1293408773/279180000"
+          },
+          "frequencies": [
+            "15347/40000",
+            "15347/20000",
+            "15347/20000"
+          ],
+          "inside_registered_relative_tolerance": true,
+          "primitive_multipliers": [
+            2,
+            1,
+            1
+          ],
+          "relative_regret": {
+            "decimal": "0.0000004781996379125747473251742458889303685282",
+            "expression": "11209208/23440435983871",
+            "rational": "11209208/23440435983871"
+          },
+          "scale_mode": "cap",
+          "t": "20000/15347"
+        },
+        {
+          "absolute_regret": {
+            "decimal": "0.000002215442765067609951447463671849987111774",
+            "expression": "1401151/632447392500",
+            "rational": "1401151/632447392500"
+          },
+          "cost": {
+            "decimal": "4.632884780428397449674045418726269790100",
+            "expression": "1293408773/279180000",
+            "kind": "rational",
+            "value": "1293408773/279180000"
+          },
+          "frequencies": [
+            "1/2",
+            "1/2",
+            "1"
+          ],
+          "inside_registered_relative_tolerance": true,
+          "primitive_multipliers": [
+            2,
+            2,
+            1
+          ],
+          "relative_regret": {
+            "decimal": "0.0000004781996379125747473251742458889303685282",
+            "expression": "11209208/23440435983871",
+            "rational": "11209208/23440435983871"
+          },
+          "scale_mode": "cap",
+          "t": "1"
+        },
+        {
+          "absolute_regret": {
+            "decimal": "0.000002215442765067609951447463671849987111774",
+            "expression": "1401151/632447392500",
+            "rational": "1401151/632447392500"
+          },
+          "cost": {
+            "decimal": "4.632884780428397449674045418726269790100",
+            "expression": "1293408773/279180000",
+            "kind": "rational",
+            "value": "1293408773/279180000"
+          },
+          "frequencies": [
+            "15347/30000",
+            "15347/20000",
+            "15347/20000"
+          ],
+          "inside_registered_relative_tolerance": true,
+          "primitive_multipliers": [
+            3,
+            2,
+            2
+          ],
+          "relative_regret": {
+            "decimal": "0.0000004781996379125747473251742458889303685282",
+            "expression": "11209208/23440435983871",
+            "rational": "11209208/23440435983871"
+          },
+          "scale_mode": "cap",
+          "t": "10000/15347"
+        },
+        {
+          "absolute_regret": {
+            "decimal": "0",
+            "expression": "0",
+            "rational": "0"
+          },
+          "cost": {
+            "decimal": "4.632882564985632382064093971262597940112",
+            "expression": "23440435983871/5059579140000",
+            "kind": "rational",
+            "value": "23440435983871/5059579140000"
+          },
+          "frequencies": [
+            "6041/10000",
+            "6041/10000",
+            "18123/20000"
+          ],
+          "inside_registered_relative_tolerance": true,
+          "primitive_multipliers": [
+            3,
+            3,
+            2
+          ],
+          "relative_regret": {
+            "decimal": "0",
+            "expression": "0",
+            "rational": "0"
+          },
+          "scale_mode": "cap",
+          "t": "10000/18123"
+        },
+        {
+          "absolute_regret": {
+            "decimal": "0.000002215442765067609951447463671849987111774",
+            "expression": "1401151/632447392500",
+            "rational": "1401151/632447392500"
+          },
+          "cost": {
+            "decimal": "4.632884780428397449674045418726269790100",
+            "expression": "1293408773/279180000",
+            "kind": "rational",
+            "value": "1293408773/279180000"
+          },
+          "frequencies": [
+            "1/2",
+            "2/3",
+            "1"
+          ],
+          "inside_registered_relative_tolerance": true,
+          "primitive_multipliers": [
+            4,
+            3,
+            2
+          ],
+          "relative_regret": {
+            "decimal": "0.0000004781996379125747473251742458889303685282",
+            "expression": "11209208/23440435983871",
+            "rational": "11209208/23440435983871"
+          },
+          "scale_mode": "cap",
+          "t": "1/2"
+        }
+      ],
+      "registered_relative_cost_tolerance": "1/1000000",
+      "registered_relative_cost_tolerance_percent": "0.0001%",
+      "schema": "jrp3.certified-policy-portfolio.v2",
+      "winner": [
+        3,
+        3,
+        2
+      ]
+    }
+  ],
+  "purpose": "Frozen synthetic regression fixtures only; every fitted operational instance must regenerate and verify its own boundary-and-primitive candidate set.",
+  "schema": "jrp3.policy-portfolio.v3"
+}

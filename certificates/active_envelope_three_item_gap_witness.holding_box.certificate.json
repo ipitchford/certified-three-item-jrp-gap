@@ -1,0 +1,245 @@
+{
+  "base_gap": {
+    "decimal": "1.148729146474820584526439832806943161680",
+    "expression": "7732648297718008589674913778809/6731480890380196637385597557508",
+    "rational": "7732648297718008589674913778809/6731480890380196637385597557508"
+  },
+  "base_instance": "data/active_envelope_three_item_gap_witness.json",
+  "base_instance_sha256": "cbf7353ae4cd8c26831eae60f74dbdce08d745297df54af15237007dc70f09ff",
+  "conclusion": "The (3,3,2) policy is globally optimal throughout the declared holding-cost box, conditional on the candidate finite-closure theorem and the producer-side vertex certificates.",
+  "does_not_establish": [
+    "robustness to cap, demand, lead-time, service, or fixed-cost misspecification",
+    "operational benefit",
+    "independent reproduction"
+  ],
+  "holding_intervals": [
+    {
+      "item": "item-1",
+      "lower": "71577998429014338981064551748003703741479/182357417241982102438210346542920000000000",
+      "upper": "23859332814270168370163197688604322741479/60785805747327367479403448847640000000000"
+    },
+    {
+      "item": "item-2",
+      "lower": "3039290287073467240686897971191/4558935431049552560955258663573",
+      "upper": "1013096762553089835751148971191/1519645143683184186985086221191"
+    },
+    {
+      "item": "item-3",
+      "lower": "6424416147223825117958263943040506387760941777/4243183563095060550583497448533934020000000000",
+      "upper": "2141472049487362358500139950722682531357941777/1414394521031686850194499149511311340000000000"
+    }
+  ],
+  "proof": {
+    "schedule_affinity": "For every fixed feasible schedule, the exact objective is affine in H.",
+    "vertex_principle": "For every competing fixed schedule, competitor cost minus winner cost is affine. Exact global optimality at all eight vertices makes that difference nonnegative at every vertex, and therefore throughout their convex hull.",
+    "winner_affinity": "The (3,3,2) winner is cap-bound at every vertex, so the same fixed schedule and its affine cost apply throughout the box."
+  },
+  "radius_construction": {
+    "active_runner_thresholds": [
+      {
+        "base_margin": "1908610761442657/10877191205396850000000000",
+        "base_margin_decimal": "1.7546908254179411e-10",
+        "holding_slope_difference": [
+          "8175989862/8596229945",
+          "-3027010138/8596229945",
+          "5148979724/25788689835"
+        ],
+        "primitive_multipliers": [
+          2,
+          1,
+          1
+        ],
+        "relative_box_crossover_threshold": "292901133283274471191/1519645143683184186985086221191"
+      },
+      {
+        "base_margin": "1908610761442657/10877191205396850000000000",
+        "base_margin_decimal": "1.7546908254179411e-10",
+        "holding_slope_difference": [
+          "19304/56015",
+          "19304/56015",
+          "-17407/168045"
+        ],
+        "primitive_multipliers": [
+          2,
+          2,
+          1
+        ],
+        "relative_box_crossover_threshold": "1908610761442657/5676275511070328641443911"
+      },
+      {
+        "base_margin": "1908610761442657/10877191205396850000000000",
+        "base_margin_decimal": "1.7546908254179411e-10",
+        "holding_slope_difference": [
+          "2574489862/8596229945",
+          "-3027010138/8596229945",
+          "5148979724/25788689835"
+        ],
+        "primitive_multipliers": [
+          3,
+          2,
+          2
+        ],
+        "relative_box_crossover_threshold": "292901133283274471191/1092699211424293209849023471191"
+      },
+      {
+        "base_margin": "1908610761442657/10877191205396850000000000",
+        "base_margin_decimal": "1.7546908254179411e-10",
+        "holding_slope_difference": [
+          "19304/56015",
+          "-17407/112030",
+          "-17407/168045"
+        ],
+        "primitive_multipliers": [
+          4,
+          3,
+          2
+        ],
+        "relative_box_crossover_threshold": "1908610761442657/4303980407106398641443911"
+      }
+    ],
+    "rule": "one half of the smallest active-runner relative-box crossover threshold"
+  },
+  "relative_holding_radius": "292901133283274471191/3039290287366368373970172442382",
+  "relative_holding_radius_decimal": "9.63715557216752889337529594021e-11",
+  "schema": "jrp3.holding-box-certificate.v1",
+  "scope": "simultaneous relative perturbations of all three holding coefficients",
+  "vertex_gap_range": {
+    "maximum": {
+      "decimal": "1.148729146481285500388323057432354927010",
+      "expression": "506907725261078298795714693571087580369387754502895917613/441276977095781017176633171200465174438503189823167183956",
+      "rational": "506907725261078298795714693571087580369387754502895917613/441276977095781017176633171200465174438503189823167183956"
+    },
+    "minimum": {
+      "decimal": "1.148729146468355668664956752392092440974",
+      "expression": "168969241762249192551054971584464784626501583086088917613/147092325707697911922522516112249748212793635630083183956",
+      "rational": "168969241762249192551054971584464784626501583086088917613/147092325707697911922522516112249748212793635630083183956"
+    }
+  },
+  "vertices": [
+    {
+      "certificate": "certificates/robustness/active_envelope_three_item_gap_witness/vertex-mmm.certificate.json",
+      "gap": {
+        "decimal": "1.148729146476241409333913706947910563607",
+        "expression": "506907725237802430521474237623970037451601564982895917613/441276977077456395496991481828145358786383189823167183956",
+        "rational": "506907725237802430521474237623970037451601564982895917613/441276977077456395496991481828145358786383189823167183956"
+      },
+      "instance": "data/robustness/active_envelope_three_item_gap_witness/vertex-mmm.json",
+      "signs": [
+        -1,
+        -1,
+        -1
+      ],
+      "verification": "certificates/robustness/active_envelope_three_item_gap_witness/vertex-mmm.verification.json"
+    },
+    {
+      "certificate": "certificates/robustness/active_envelope_three_item_gap_witness/vertex-mmp.certificate.json",
+      "gap": {
+        "decimal": "1.148729146472974563596265120695285063993",
+        "expression": "168969241757681130313374481974164357884430576709920952839/147092325703129849684842026501949321470722629253915219182",
+        "rational": "168969241757681130313374481974164357884430576709920952839/147092325703129849684842026501949321470722629253915219182"
+      },
+      "instance": "data/robustness/active_envelope_three_item_gap_witness/vertex-mmp.json",
+      "signs": [
+        -1,
+        -1,
+        1
+      ],
+      "verification": "certificates/robustness/active_envelope_three_item_gap_witness/vertex-mmp.verification.json"
+    },
+    {
+      "certificate": "certificates/robustness/active_envelope_three_item_gap_witness/vertex-mpm.certificate.json",
+      "gap": {
+        "decimal": "1.148729146481285500388323057432354927010",
+        "expression": "506907725261078298795714693571087580369387754502895917613/441276977095781017176633171200465174438503189823167183956",
+        "rational": "506907725261078298795714693571087580369387754502895917613/441276977095781017176633171200465174438503189823167183956"
+      },
+      "instance": "data/robustness/active_envelope_three_item_gap_witness/vertex-mpm.json",
+      "signs": [
+        -1,
+        1,
+        -1
+      ],
+      "verification": "certificates/robustness/active_envelope_three_item_gap_witness/vertex-mpm.verification.json"
+    },
+    {
+      "certificate": "certificates/robustness/active_envelope_three_item_gap_witness/vertex-mpp.certificate.json",
+      "gap": {
+        "decimal": "1.148729146478018654650445114047550768766",
+        "expression": "168969241765439753071454633956536872190359306549920952839/147092325709238056911389256292722593354762629253915219182",
+        "rational": "168969241765439753071454633956536872190359306549920952839/147092325709238056911389256292722593354762629253915219182"
+      },
+      "instance": "data/robustness/active_envelope_three_item_gap_witness/vertex-mpp.json",
+      "signs": [
+        -1,
+        1,
+        1
+      ],
+      "verification": "certificates/robustness/active_envelope_three_item_gap_witness/vertex-mpp.verification.json"
+    },
+    {
+      "certificate": "certificates/robustness/active_envelope_three_item_gap_witness/vertex-pmm.certificate.json",
+      "gap": {
+        "decimal": "1.148729146471622514402169636455298460884",
+        "expression": "506907725251506617234515706454871317677814584111399811935/441276977091160582210032950659046639012596208951671078278",
+        "rational": "506907725251506617234515706454871317677814584111399811935/441276977091160582210032950659046639012596208951671078278"
+      },
+      "instance": "data/robustness/active_envelope_three_item_gap_witness/vertex-pmm.json",
+      "signs": [
+        1,
+        -1,
+        -1
+      ],
+      "verification": "certificates/robustness/active_envelope_three_item_gap_witness/vertex-pmm.verification.json"
+    },
+    {
+      "certificate": "certificates/robustness/active_envelope_three_item_gap_witness/vertex-pmp.certificate.json",
+      "gap": {
+        "decimal": "1.148729146468355668664956752392092440974",
+        "expression": "168969241762249192551054971584464784626501583086088917613/147092325707697911922522516112249748212793635630083183956",
+        "rational": "168969241762249192551054971584464784626501583086088917613/147092325707697911922522516112249748212793635630083183956"
+      },
+      "instance": "data/robustness/active_envelope_three_item_gap_witness/vertex-pmp.json",
+      "signs": [
+        1,
+        -1,
+        1
+      ],
+      "verification": "certificates/robustness/active_envelope_three_item_gap_witness/vertex-pmp.verification.json"
+    },
+    {
+      "certificate": "certificates/robustness/active_envelope_three_item_gap_witness/vertex-ppm.certificate.json",
+      "gap": {
+        "decimal": "1.148729146476666605456614144759887080987",
+        "expression": "506907725274782485508756162401988860595600773631399811935/441276977109485203889674640031366454664716208951671078278",
+        "rational": "506907725274782485508756162401988860595600773631399811935/441276977109485203889674640031366454664716208951671078278"
+      },
+      "instance": "data/robustness/active_envelope_three_item_gap_witness/vertex-ppm.json",
+      "signs": [
+        1,
+        1,
+        -1
+      ],
+      "verification": "certificates/robustness/active_envelope_three_item_gap_witness/vertex-ppm.verification.json"
+    },
+    {
+      "certificate": "certificates/robustness/active_envelope_three_item_gap_witness/vertex-ppp.certificate.json",
+      "gap": {
+        "decimal": "1.148729146473399759719171903564488887977",
+        "expression": "56323080590002605103045041188945766310810104308696305871/49030775237935373049689915301007673365611211876694394652",
+        "rational": "56323080590002605103045041188945766310810104308696305871/49030775237935373049689915301007673365611211876694394652"
+      },
+      "instance": "data/robustness/active_envelope_three_item_gap_witness/vertex-ppp.json",
+      "signs": [
+        1,
+        1,
+        1
+      ],
+      "verification": "certificates/robustness/active_envelope_three_item_gap_witness/vertex-ppp.verification.json"
+    }
+  ],
+  "winner": [
+    3,
+    3,
+    2
+  ]
+}

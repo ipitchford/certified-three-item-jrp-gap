@@ -1,0 +1,65 @@
+{
+  "attemptId": "ep-attempt:certified-three-item-jrp-gap",
+  "workId": "ep-work:certified-three-item-jrp-gap",
+  "cohort": "prospective",
+  "registeredAt": "2026-08-22T00:00:00Z",
+  "aims": ["science", "productivity"],
+  "question": "Can an exact three-item oracle separate the multi-item relaxation gap from the certified two-item constant and support a logistics stress-test protocol without promoting synthetic model evidence to field impact?",
+  "selectionBasis": "A complete local source review found a coherent exact rational witness and finite closure, while identifying verifier, provenance, bibliography, portability, and logistics-translation repairs required for an honest successor candidate.",
+  "taskClass": "exact-operations-research-certificate-and-logistics-evaluation-protocol",
+  "status": "release-candidate",
+  "statusAt": "2026-08-22T00:00:00Z",
+  "resultClass": "positive",
+  "statusHistory": [
+    {
+      "at": "2026-08-22T00:00:00Z",
+      "status": "release-candidate",
+      "resultClass": "positive",
+      "reason": "The repaired local candidate has an exact rational witness, finite tail closure, strengthened verifier, producer replay, source audit, and logistics handoff. Immutable public identity and external assurance remain pending.",
+      "evidenceRefs": []
+    }
+  ],
+  "decisionObjectTarget": "An exact rational three-item gap certificate plus a gated decision on whether a real logistics triplet warrants simulation, shadow operation, or field evaluation.",
+  "comparisonPlan": {
+    "status": "not-recorded",
+    "comparator": "No matched conventional mathematical workflow or incumbent logistics plan has been evaluated.",
+    "estimand": "No effect on discovery time, proof quality, plan change, service, avoided loss, implementation cost, or net value has been estimated.",
+    "matchedAssuranceEndpoint": "No matched assurance endpoint was assigned.",
+    "reason": "The source research predated this prepare-only publication record, and no field application has begun."
+  },
+  "measurement": {
+    "status": "not-recorded",
+    "missingnessReason": "Research and source construction predated prospective site registration; time, compute, agent-run, rework, and cost totals were not captured at one boundary and are not reconstructed.",
+    "milestones": [],
+    "activeHumanMinutes": null,
+    "computeMinutes": null,
+    "computeCost": null,
+    "agentRuns": null,
+    "reworkMinutes": null,
+    "correctionCount": null
+  },
+  "assuranceEndpoint": {
+    "status": "measured-partial",
+    "assessedAt": "2026-08-22T00:00:00Z",
+    "dimensions": [
+      {"dimension": "availability", "state": "partial", "evidenceRefs": []},
+      {"dimension": "internalReplay", "state": "passed", "evidenceRefs": []},
+      {"dimension": "independentRerun", "state": "not-assessed", "evidenceRefs": []},
+      {"dimension": "independentReimplementation", "state": "not-assessed", "evidenceRefs": []},
+      {"dimension": "formalVerification", "state": "not-assessed", "evidenceRefs": []},
+      {"dimension": "specialistReview", "state": "not-assessed", "evidenceRefs": []},
+      {"dimension": "editorialPeerReview", "state": "not-assessed", "evidenceRefs": []},
+      {"dimension": "dataEnvironmentReproducibility", "state": "partial", "evidenceRefs": []},
+      {"dimension": "semanticValidation", "state": "partial", "evidenceRefs": []},
+      {"dimension": "noveltyAssessment", "state": "partial", "evidenceRefs": []},
+      {"dimension": "priorityAssessment", "state": "not-assessed", "evidenceRefs": []}
+    ],
+    "claimCeiling": "A producer-side unrefereed exact-computation candidate for a bundled three-item relaxation-gap lower bound and a proposed logistics evaluation route; not the exact global constant, independent assurance, operational validation, savings, or field impact.",
+    "evidenceRefs": [],
+    "missingnessReason": "No immutable public successor exists. Independent rerun, reimplementation, formal verification, specialist review, editorial peer review, priority assessment, and field evaluation are not established."
+  },
+  "releaseSlug": "certified-three-item-jrp-gap",
+  "stopReason": null,
+  "corrections": [],
+  "revisions": []
+}

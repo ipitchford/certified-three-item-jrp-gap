@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "certified-jrp3-cap-oracle"
+version = "0.3.1"
+description = "Exact three-item joint-replenishment gap certificates and logistics evaluation handoff"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [{name = "Anonymous"}]
+dependencies = ["sympy==1.14.0"]
+keywords = ["inventory", "joint replenishment", "operations research", "exact optimisation", "certification"]
+
+[project.scripts]
+jrp3 = "jrp3.cli:main"
+jrp3-verify = "jrp3.verify:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]

@@ -1,0 +1,256 @@
+{
+  "certificate": "certificates/active_envelope_three_item_gap_witness.certificate.json",
+  "check_count": 49,
+  "checks": [
+    {
+      "detail": "source instance hash is required",
+      "name": "instance_sha256_present",
+      "passed": true
+    },
+    {
+      "detail": "source instance hash",
+      "name": "instance_sha256",
+      "passed": true
+    },
+    {
+      "detail": "embedded and external instances agree",
+      "name": "embedded_instance",
+      "passed": true
+    },
+    {
+      "detail": "12099233027737989052666993/3000320647128487500000000",
+      "name": "relaxation_cost",
+      "passed": true
+    },
+    {
+      "detail": "(56015/92726, 153463/200000, 1)",
+      "name": "relaxation_frequencies",
+      "passed": true
+    },
+    {
+      "detail": "751724704454190244389065483959/139103866162818065962500000000",
+      "name": "desynchronised_cost",
+      "passed": true
+    },
+    {
+      "detail": "three pair oracles",
+      "name": "pair_oracle_count",
+      "passed": true
+    },
+    {
+      "detail": "[(0, 1), (0, 2), (1, 2)]",
+      "name": "pair_oracle_partition",
+      "passed": true
+    },
+    {
+      "detail": "5",
+      "name": "pair_(0, 1)_cutoff_range",
+      "passed": true
+    },
+    {
+      "detail": "1471893398927080257119631/302144200149912500000000",
+      "name": "pair_(0, 1)_best",
+      "passed": true
+    },
+    {
+      "detail": "9",
+      "name": "pair_(0, 1)_count",
+      "passed": true
+    },
+    {
+      "detail": "[(1, 1)]",
+      "name": "pair_(0, 1)_policies",
+      "passed": true
+    },
+    {
+      "detail": "-1471893398927080257119631/302144200149912500000000 + 751724704454190244389065483959*sqrt(30)/834623196976908395775000000000",
+      "name": "pair_(0, 1)_tail_closes",
+      "passed": true
+    },
+    {
+      "detail": "declared certified",
+      "name": "pair_(0, 1)_certified_flag",
+      "passed": true
+    },
+    {
+      "detail": "751724704454190244389065483959*sqrt(30)/834623196976908395775000000000",
+      "name": "pair_(0, 1)_tail_value",
+      "passed": true
+    },
+    {
+      "detail": "-1471893398927080257119631/302144200149912500000000 + 751724704454190244389065483959*sqrt(30)/834623196976908395775000000000",
+      "name": "pair_(0, 1)_tail_margin",
+      "passed": true
+    },
+    {
+      "detail": "R-1=4",
+      "name": "pair_(0, 1)_minimal_cutoff",
+      "passed": true
+    },
+    {
+      "detail": "6",
+      "name": "pair_(0, 2)_cutoff_range",
+      "passed": true
+    },
+    {
+      "detail": "10573792871428459/2142512289300000",
+      "name": "pair_(0, 2)_best",
+      "passed": true
+    },
+    {
+      "detail": "11",
+      "name": "pair_(0, 2)_count",
+      "passed": true
+    },
+    {
+      "detail": "[(1, 2)]",
+      "name": "pair_(0, 2)_policies",
+      "passed": true
+    },
+    {
+      "detail": "-10573792871428459/2142512289300000 + 751724704454190244389065483959*sqrt(42)/973727063139726461737500000000",
+      "name": "pair_(0, 2)_tail_closes",
+      "passed": true
+    },
+    {
+      "detail": "declared certified",
+      "name": "pair_(0, 2)_certified_flag",
+      "passed": true
+    },
+    {
+      "detail": "751724704454190244389065483959*sqrt(42)/973727063139726461737500000000",
+      "name": "pair_(0, 2)_tail_value",
+      "passed": true
+    },
+    {
+      "detail": "-10573792871428459/2142512289300000 + 751724704454190244389065483959*sqrt(42)/973727063139726461737500000000",
+      "name": "pair_(0, 2)_tail_margin",
+      "passed": true
+    },
+    {
+      "detail": "R-1=5",
+      "name": "pair_(0, 2)_minimal_cutoff",
+      "passed": true
+    },
+    {
+      "detail": "5",
+      "name": "pair_(1, 2)_cutoff_range",
+      "passed": true
+    },
+    {
+      "detail": "17632594822136234507342657/3625730401798950000000000",
+      "name": "pair_(1, 2)_best",
+      "passed": true
+    },
+    {
+      "detail": "9",
+      "name": "pair_(1, 2)_count",
+      "passed": true
+    },
+    {
+      "detail": "[(1, 1)]",
+      "name": "pair_(1, 2)_policies",
+      "passed": true
+    },
+    {
+      "detail": "-17632594822136234507342657/3625730401798950000000000 + 751724704454190244389065483959*sqrt(30)/834623196976908395775000000000",
+      "name": "pair_(1, 2)_tail_closes",
+      "passed": true
+    },
+    {
+      "detail": "declared certified",
+      "name": "pair_(1, 2)_certified_flag",
+      "passed": true
+    },
+    {
+      "detail": "751724704454190244389065483959*sqrt(30)/834623196976908395775000000000",
+      "name": "pair_(1, 2)_tail_value",
+      "passed": true
+    },
+    {
+      "detail": "-17632594822136234507342657/3625730401798950000000000 + 751724704454190244389065483959*sqrt(30)/834623196976908395775000000000",
+      "name": "pair_(1, 2)_tail_margin",
+      "passed": true
+    },
+    {
+      "detail": "R-1=4",
+      "name": "pair_(1, 2)_minimal_cutoff",
+      "passed": true
+    },
+    {
+      "detail": "17632594822136234507342657/3625730401798950000000000",
+      "name": "boundary_cost",
+      "passed": true
+    },
+    {
+      "detail": "21",
+      "name": "triple_cutoff_range",
+      "passed": true
+    },
+    {
+      "detail": "400",
+      "name": "component_bound",
+      "passed": true
+    },
+    {
+      "detail": "10/11",
+      "name": "tail_factor_squared",
+      "passed": true
+    },
+    {
+      "detail": "declared candidate optimum under the bundled proof",
+      "name": "candidate_global_optimum_under_stated_proof_flag",
+      "passed": true
+    },
+    {
+      "detail": "50387704513257323196307343/10877191205396850000000000",
+      "name": "triple_best_cost",
+      "passed": true
+    },
+    {
+      "detail": "49981",
+      "name": "triple_count",
+      "passed": true
+    },
+    {
+      "detail": "[(3, 3, 2)]",
+      "name": "triple_policies",
+      "passed": true
+    },
+    {
+      "detail": "-50387704513257323196307343/10877191205396850000000000 + 17632594822136234507342657*sqrt(110)/39883034419788450000000000",
+      "name": "triple_tail_closes",
+      "passed": true
+    },
+    {
+      "detail": "17632594822136234507342657*sqrt(110)/39883034419788450000000000",
+      "name": "triple_tail_value",
+      "passed": true
+    },
+    {
+      "detail": "-50387704513257323196307343/10877191205396850000000000 + 17632594822136234507342657*sqrt(110)/39883034419788450000000000",
+      "name": "triple_tail_margin",
+      "passed": true
+    },
+    {
+      "detail": "S-1=20",
+      "name": "triple_minimal_cutoff",
+      "passed": true
+    },
+    {
+      "detail": "7732648297718008589674913778809/6731480890380196637385597557508",
+      "name": "integrality_gap",
+      "passed": true
+    },
+    {
+      "detail": "7732648297718008589674913778809/6731480890380196637385597557508 > 1111889593940297/1000000000000000",
+      "name": "exceeds_two_item_gamma",
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "recomputed_gap": "7732648297718008589674913778809/6731480890380196637385597557508",
+  "recomputed_relaxation": "12099233027737989052666993/3000320647128487500000000",
+  "recomputed_true_optimum": "50387704513257323196307343/10877191205396850000000000",
+  "schema": "jrp3.verification-report.v1"
+}

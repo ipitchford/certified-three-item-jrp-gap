@@ -1,0 +1,49 @@
+{
+  "schema": "jrp3.reproduction-summary.v5",
+  "date": "2026-08-22",
+  "stage": "pre-public-identity-editor-closure",
+  "overall_passed": true,
+  "ordinary_replay_passed": true,
+  "optimized_replay_passed": true,
+  "ordinary_optimized_artifacts_identical": true,
+  "clean_extraction_replay_passed": true,
+  "oracle_tests_passed": 21,
+  "tests": 21,
+  "generated_artifacts_byte_bound": 61,
+  "manifest_entries_clean_extraction": 140,
+  "python": "3.14.6",
+  "sympy": "1.14.0",
+  "certificate_reports": [
+    {"name": "active_envelope_three_item_gap_witness", "passed": true, "check_count": 49, "gap": "7732648297718008589674913778809/6731480890380196637385597557508", "relaxation": "12099233027737989052666993/3000320647128487500000000", "true_optimum": "50387704513257323196307343/10877191205396850000000000"},
+    {"name": "near_extremal_three_item_gap_witness", "passed": true, "check_count": 49, "gap": "1798701855222341185000/1565819440747964323563"},
+    {"name": "three_item_gap_witness", "passed": true, "check_count": 49, "gap": "9586/8355"}
+  ],
+  "holding_box_reports": [
+    {"name": "active_envelope_three_item_gap_witness", "passed": true, "vertices": 8, "relative_holding_radius": "292901133283274471191/3039290287366368373970172442382"},
+    {"name": "near_extremal_three_item_gap_witness", "passed": true, "vertices": 8, "relative_holding_radius": "86013857588/70692800851712719"}
+  ],
+  "portfolio_completeness": {
+    "schema": "jrp3.policy-portfolio.v3",
+    "portfolios": 2,
+    "enumerated_primitive_triples_per_portfolio": 49981,
+    "boundary_regimes_per_portfolio": 4,
+    "included_policies_per_portfolio": 5,
+    "excluded_finite_policies_per_portfolio": 49980,
+    "tail_complete_at_registered_tolerance": true,
+    "whole_document_verification_passed": true
+  },
+  "paper_preflight": {
+    "pages": 16,
+    "raw_tex_findings": 0,
+    "fonts_embedded": true,
+    "tagged_pdf": false,
+    "accessible_markdown_available": true,
+    "visual_qa_passed": true
+  },
+  "editorial_closure": {
+    "decision": "PASS_WITH_NOTES",
+    "record": "reviews/confirmation/DETERMINISTIC_REPAIR_CLOSURE.md",
+    "third_scientific_review_performed": false
+  },
+  "assurance_boundary": "Same-producer solver-independent replay; internal five-role editorial process with bounded Editor closure; not unaffiliated independent reproduction, formal verification, external peer review, field validation, or priority proof."
+}

@@ -1,0 +1,26 @@
+{
+  "checks": [
+    {
+      "boundary_regimes": 4,
+      "enumerated_primitive_triples": 49981,
+      "excluded_finite_policy_count": 49980,
+      "included_policy_count": 5,
+      "instance": "data/active_envelope_three_item_gap_witness.json",
+      "passed": true,
+      "tail_closed": true
+    },
+    {
+      "boundary_regimes": 4,
+      "enumerated_primitive_triples": 49981,
+      "excluded_finite_policy_count": 49980,
+      "included_policy_count": 5,
+      "instance": "data/near_extremal_three_item_gap_witness.json",
+      "passed": true,
+      "tail_closed": true
+    }
+  ],
+  "passed": true,
+  "portfolio_count": 2,
+  "portfolio_document": "policy_portfolio.json",
+  "schema": "jrp3.policy-portfolio-verification.v1"
+}

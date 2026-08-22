@@ -1,0 +1,430 @@
+{
+  "assurance": {
+    "search": "finite exact enumeration with rational arithmetic and exact algebraic comparison",
+    "tail": "second-pair-complexity lower bound",
+    "verification": "same-producer solver-independent verifier re-enumerates every declared finite set"
+  },
+  "boundary_cost": {
+    "decimal": "4.863184205143220047883389590924955781435",
+    "expression": "17632594822136234507342657/3625730401798950000000000",
+    "rational": "17632594822136234507342657/3625730401798950000000000"
+  },
+  "candidate_global_optimum_under_stated_proof": true,
+  "component_bound": 400,
+  "conclusion": "For this bundled rational instance, the candidate exact common-origin fixed-interval gap ratio is 7732648297718008589674913778809/6731480890380196637385597557508. It exceeds the comparison endpoint reported by the unrefereed producer-side two-item candidate, conditional on the stated candidate proof dependency.",
+  "desynchronised_regime": {
+    "components": [
+      {
+        "coefficient": "1",
+        "cost": {
+          "decimal": "1.253852119240246786464160447089584643058",
+          "expression": "97688500506895694761/77910703350000000000",
+          "rational": "97688500506895694761/77910703350000000000"
+        },
+        "frequency": "56015/92726",
+        "frequency_cap": "56015/92726",
+        "holding": "23550892369/60000000000",
+        "mode": "cap"
+      },
+      {
+        "coefficient": "1",
+        "cost": {
+          "decimal": "1.636145488999519971154827765215936957660",
+          "expression": "150652677107/92077800000",
+          "rational": "150652677107/92077800000"
+        },
+        "frequency": "153463/200000",
+        "frequency_cap": "153463/200000",
+        "holding": "2/3",
+        "mode": "cap"
+      },
+      {
+        "coefficient": "1",
+        "cost": {
+          "decimal": "2.514055673602973261419229143835371138377",
+          "expression": "3509898266473847/1396110000000000",
+          "rational": "3509898266473847/1396110000000000"
+        },
+        "frequency": "1",
+        "frequency_cap": "1",
+        "holding": "2113788266473847/1396110000000000",
+        "mode": "cap"
+      }
+    ],
+    "cost": {
+      "decimal": "5.404053281842740019038217356140892739095",
+      "expression": "751724704454190244389065483959/139103866162818065962500000000",
+      "rational": "751724704454190244389065483959/139103866162818065962500000000"
+    },
+    "interpretation": "all three order lattices pairwise incommensurable"
+  },
+  "enumerated_primitive_triples": 49981,
+  "enumeration_condition": "second-smallest pair complexity <= 21",
+  "instance": {
+    "K0": "1",
+    "currency_unit": "normalised cost unit",
+    "items": [
+      {
+        "H": "23550892369/60000000000",
+        "K": "0",
+        "frequency_cap": "56015/92726",
+        "name": "item-1"
+      },
+      {
+        "H": "2/3",
+        "K": "0",
+        "frequency_cap": "153463/200000",
+        "name": "item-2"
+      },
+      {
+        "H": "2113788266473847/1396110000000000",
+        "K": "0",
+        "frequency_cap": "1",
+        "name": "item-3"
+      }
+    ],
+    "name": "active-envelope-rational-three-cap-gap-witness",
+    "time_unit": "normalised time unit"
+  },
+  "instance_sha256": "cbf7353ae4cd8c26831eae60f74dbdce08d745297df54af15237007dc70f09ff",
+  "integrality_gap": {
+    "decimal": "1.148729146474820584526439832806943161680",
+    "expression": "7732648297718008589674913778809/6731480890380196637385597557508",
+    "rational": "7732648297718008589674913778809/6731480890380196637385597557508"
+  },
+  "one_pair_oracles": [
+    {
+      "best_cost": {
+        "decimal": "4.871493142005646778818555766651695642782",
+        "expression": "1471893398927080257119631/302144200149912500000000",
+        "rational": "1471893398927080257119631/302144200149912500000000"
+      },
+      "certified": true,
+      "cutoff_R": 5,
+      "desynchronised_cost": {
+        "decimal": "5.404053281842740019038217356140892739095",
+        "expression": "751724704454190244389065483959/139103866162818065962500000000",
+        "rational": "751724704454190244389065483959/139103866162818065962500000000"
+      },
+      "enumerated_coprime_pairs": 9,
+      "omitted_condition": "p+q >= 6",
+      "optimal_policies": [
+        {
+          "convention": "T_i=q*t and T_j=p*t",
+          "cost": {
+            "decimal": "4.871493142005646778818555766651695642782",
+            "expression": "1471893398927080257119631/302144200149912500000000",
+            "rational": "1471893398927080257119631/302144200149912500000000"
+          },
+          "p": 1,
+          "pair_component": {
+            "coefficient": "1",
+            "cost": {
+              "decimal": "2.357437468402673517399326622816324504405",
+              "expression": "183669611266895694761/77910703350000000000",
+              "rational": "183669611266895694761/77910703350000000000"
+            },
+            "frequency": "56015/92726",
+            "frequency_cap": "56015/92726",
+            "holding": "63550892369/60000000000",
+            "mode": "cap"
+          },
+          "pair_indices": [
+            0,
+            1
+          ],
+          "pair_names": [
+            "item-1",
+            "item-2"
+          ],
+          "period_ratio_Tj_over_Ti": "1/1",
+          "q": 1,
+          "singleton_component": {
+            "coefficient": "1",
+            "cost": {
+              "decimal": "2.514055673602973261419229143835371138377",
+              "expression": "3509898266473847/1396110000000000",
+              "rational": "3509898266473847/1396110000000000"
+            },
+            "frequency": "1",
+            "frequency_cap": "1",
+            "holding": "2113788266473847/1396110000000000",
+            "mode": "cap"
+          },
+          "singleton_index": 2,
+          "singleton_name": "item-3"
+        }
+      ],
+      "pair_indices": [
+        0,
+        1
+      ],
+      "pair_names": [
+        "item-1",
+        "item-2"
+      ],
+      "tail_formula": "sqrt(5/6)*M0",
+      "tail_lower_bound": {
+        "decimal": "4.933203140708486380694534330269984247412",
+        "expression": "751724704454190244389065483959*sqrt(30)/834623196976908395775000000000",
+        "minimal_polynomial": "23219862697731841063875893584522801261687500000000000000000*x**2 - 565090031286739670252404601629591076606004542800250886313681"
+      },
+      "tail_minus_incumbent": {
+        "decimal": "0.06170999870283960187597856361828860463014",
+        "expression": "-1471893398927080257119631/302144200149912500000000 + 751724704454190244389065483959*sqrt(30)/834623196976908395775000000000",
+        "minimal_polynomial": "6829371381685835607022321642506706253437500000000000000000*x**2 + 66538471700184353015621602857783889206059054771850000000000*x - 4132096094960402249922041109808823887363150102392379878607"
+      }
+    },
+    {
+      "best_cost": {
+        "decimal": "4.935230908235826565907390242384641429370",
+        "expression": "10573792871428459/2142512289300000",
+        "rational": "10573792871428459/2142512289300000"
+      },
+      "certified": true,
+      "cutoff_R": 6,
+      "desynchronised_cost": {
+        "decimal": "5.404053281842740019038217356140892739095",
+        "expression": "751724704454190244389065483959/139103866162818065962500000000",
+        "rational": "751724704454190244389065483959/139103866162818065962500000000"
+      },
+      "enumerated_coprime_pairs": 11,
+      "omitted_condition": "p+q >= 7",
+      "optimal_policies": [
+        {
+          "convention": "T_i=q*t and T_j=p*t",
+          "cost": {
+            "decimal": "4.935230908235826565907390242384641429370",
+            "expression": "10573792871428459/2142512289300000",
+            "rational": "10573792871428459/2142512289300000"
+          },
+          "p": 1,
+          "pair_component": {
+            "coefficient": "1",
+            "cost": {
+              "decimal": "3.299085419236306594752562477168704471711",
+              "expression": "30705907631/9307400000",
+              "rational": "30705907631/9307400000"
+            },
+            "frequency": "1",
+            "frequency_cap": "1",
+            "holding": "21398507631/9307400000",
+            "mode": "cap"
+          },
+          "pair_indices": [
+            0,
+            2
+          ],
+          "pair_names": [
+            "item-1",
+            "item-3"
+          ],
+          "period_ratio_Tj_over_Ti": "1/2",
+          "q": 2,
+          "singleton_component": {
+            "coefficient": "1",
+            "cost": {
+              "decimal": "1.636145488999519971154827765215936957660",
+              "expression": "150652677107/92077800000",
+              "rational": "150652677107/92077800000"
+            },
+            "frequency": "153463/200000",
+            "frequency_cap": "153463/200000",
+            "holding": "2/3",
+            "mode": "cap"
+          },
+          "singleton_index": 1,
+          "singleton_name": "item-2"
+        }
+      ],
+      "pair_indices": [
+        0,
+        2
+      ],
+      "pair_names": [
+        "item-1",
+        "item-3"
+      ],
+      "tail_formula": "sqrt(6/7)*M0",
+      "tail_lower_bound": {
+        "decimal": "5.003181148571829728128434899778847294891",
+        "expression": "751724704454190244389065483959*sqrt(42)/973727063139726461737500000000",
+        "minimal_polynomial": "22574866511683734367657118762730501226640625000000000000000*x**2 - 565090031286739670252404601629591076606004542800250886313681"
+      },
+      "tail_minus_incumbent": {
+        "decimal": "0.06795024033600316222104465739420586552089",
+        "expression": "-10573792871428459/2142512289300000 + 751724704454190244389065483959*sqrt(42)/973727063139726461737500000000",
+        "minimal_polynomial": "67724599535051203102971356288191503679921875000000000000000*x**2 + 668473073746556773304348214613133652131355764062500000000000*x - 45735606421511982971425450691924711054735007642885471441043"
+      }
+    },
+    {
+      "best_cost": {
+        "decimal": "4.863184205143220047883389590924955781435",
+        "expression": "17632594822136234507342657/3625730401798950000000000",
+        "rational": "17632594822136234507342657/3625730401798950000000000"
+      },
+      "certified": true,
+      "cutoff_R": 5,
+      "desynchronised_cost": {
+        "decimal": "5.404053281842740019038217356140892739095",
+        "expression": "751724704454190244389065483959/139103866162818065962500000000",
+        "rational": "751724704454190244389065483959/139103866162818065962500000000"
+      },
+      "enumerated_coprime_pairs": 9,
+      "omitted_condition": "p+q >= 6",
+      "optimal_policies": [
+        {
+          "convention": "T_i=q*t and T_j=p*t",
+          "cost": {
+            "decimal": "4.863184205143220047883389590924955781435",
+            "expression": "17632594822136234507342657/3625730401798950000000000",
+            "rational": "17632594822136234507342657/3625730401798950000000000"
+          },
+          "p": 1,
+          "pair_component": {
+            "coefficient": "1",
+            "cost": {
+              "decimal": "3.609332085902973261419229143835371138377",
+              "expression": "100780492369/27922200000",
+              "rational": "100780492369/27922200000"
+            },
+            "frequency": "153463/200000",
+            "frequency_cap": "153463/200000",
+            "holding": "3044528266473847/1396110000000000",
+            "mode": "cap"
+          },
+          "pair_indices": [
+            1,
+            2
+          ],
+          "pair_names": [
+            "item-2",
+            "item-3"
+          ],
+          "period_ratio_Tj_over_Ti": "1/1",
+          "q": 1,
+          "singleton_component": {
+            "coefficient": "1",
+            "cost": {
+              "decimal": "1.253852119240246786464160447089584643058",
+              "expression": "97688500506895694761/77910703350000000000",
+              "rational": "97688500506895694761/77910703350000000000"
+            },
+            "frequency": "56015/92726",
+            "frequency_cap": "56015/92726",
+            "holding": "23550892369/60000000000",
+            "mode": "cap"
+          },
+          "singleton_index": 0,
+          "singleton_name": "item-1"
+        }
+      ],
+      "pair_indices": [
+        1,
+        2
+      ],
+      "pair_names": [
+        "item-2",
+        "item-3"
+      ],
+      "tail_formula": "sqrt(5/6)*M0",
+      "tail_lower_bound": {
+        "decimal": "4.933203140708486380694534330269984247412",
+        "expression": "751724704454190244389065483959*sqrt(30)/834623196976908395775000000000",
+        "minimal_polynomial": "23219862697731841063875893584522801261687500000000000000000*x**2 - 565090031286739670252404601629591076606004542800250886313681"
+      },
+      "tail_minus_incumbent": {
+        "decimal": "0.07001893556526633281114473934502846597680",
+        "expression": "-17632594822136234507342657/3625730401798950000000000 + 751724704454190244389065483959*sqrt(30)/834623196976908395775000000000",
+        "minimal_polynomial": "928794507909273642555035743380912050467500000000000000000000*x**2 + 9033797561376298290786122227276794103463791324472100000000000*x - 637090444996310395881819961669940761806922203841897937471797"
+      }
+    }
+  ],
+  "optimal_triple_policies": [
+    {
+      "A": "2/3",
+      "B": "17327556700423847/2792220000000000",
+      "cost": {
+        "decimal": "4.632418752394170845544101686125119765775",
+        "expression": "50387704513257323196307343/10877191205396850000000000",
+        "kind": "rational",
+        "value": "50387704513257323196307343/10877191205396850000000000"
+      },
+      "frequencies": [
+        "56015/92726",
+        "56015/92726",
+        "168045/185452"
+      ],
+      "frequency_caps": [
+        "56015/92726",
+        "153463/200000",
+        "1"
+      ],
+      "pair_complexities": {
+        "0-1": 2,
+        "0-2": 5,
+        "1-2": 5
+      },
+      "periods": [
+        "3*t",
+        "3*t",
+        "2*t"
+      ],
+      "primitive_multipliers": [
+        3,
+        3,
+        2
+      ],
+      "scale_mode": "cap",
+      "second_pair_complexity": 5,
+      "t": "92726/168045",
+      "t_min": "92726/168045",
+      "union_density_coefficient": "2/3"
+    }
+  ],
+  "predecessor_status": "The comparison endpoint comes from an unrefereed producer-side Evidence Press two-item candidate, not an externally verified exact constant.",
+  "proof_dependency": "Global optimality is conditional on the unrefereed candidate finite-closure and totality theorem bundled with this package.",
+  "regimes": [
+    "fully commensurable primitive integer triples",
+    "exactly one commensurable pair",
+    "pairwise incommensurable"
+  ],
+  "relaxation": {
+    "candidate_count": 3,
+    "cost": {
+      "decimal": "4.032646657055733138551622442093052866783",
+      "expression": "12099233027737989052666993/3000320647128487500000000",
+      "rational": "12099233027737989052666993/3000320647128487500000000"
+    },
+    "frequencies": [
+      "56015/92726",
+      "153463/200000",
+      "1"
+    ],
+    "max_frequency": "1",
+    "model": "K0*max_i(f_i)+sum_i(K_i*f_i+H_i/f_i)"
+  },
+  "schema": "jrp3.cap-oracle-certificate.v2",
+  "scope": "three items with independent rational frequency caps",
+  "tail_factor_squared": "10/11",
+  "tail_formula": "sqrt((21-1)/(21+1))*M_boundary",
+  "tail_lower_bound": {
+    "decimal": "4.636864204214122372036912532382515334717",
+    "expression": "17632594822136234507342657*sqrt(110)/39883034419788450000000000",
+    "minimal_polynomial": "14460513041182092950335843212750000000000000000000*x**2 - 310908400161625547421514269436835004464047611819649"
+  },
+  "tail_minus_incumbent": {
+    "decimal": "0.004445451819951526492810846257395568941389",
+    "expression": "-50387704513257323196307343/10877191205396850000000000 + 17632594822136234507342657*sqrt(110)/39883034419788450000000000",
+    "minimal_polynomial": "1301446173706388365530225889147500000000000000000000*x**2 + 12057687320618229890793663546273403449530100000000000*x - 53627587277642675119303861859157202560624990852271"
+  },
+  "triple_cutoff_S": 21,
+  "true_optimum": {
+    "decimal": "4.632418752394170845544101686125119765775",
+    "expression": "50387704513257323196307343/10877191205396850000000000",
+    "kind": "rational",
+    "value": "50387704513257323196307343/10877191205396850000000000"
+  },
+  "two_item_gamma_upper_bound_used_for_comparison": "1111889593940297/1000000000000000",
+  "verification_independence": "The solver-independent verifier is same-producer and shares exact-algebra and instance-parsing substrate; its replay is not an unaffiliated rerun or independent reimplementation."
+}

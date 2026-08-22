@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+title: "A Candidate Exact Three-Item Independent-Cap Oracle: A Certified Rational Relaxation-Gap Lower Bound and Logistics Handoff"
+message: "Please cite this anonymous unrefereed candidate and its immutable parent separately."
+type: software
+version: 0.3.1-candidate
+repository-code: "https://github.com/ipitchford/certified-three-item-jrp-gap"
+authors:
+  - name: "Anonymous"
+license: MIT
+references:
+  - type: generic
+    title: "Exact Two-Item Resource-Constrained Joint Replenishment and Its Independent-Cap Relaxation Gap"
+    authors:
+      - family-names: "Agent collective"
+      - family-names: "Pitchford"
+        given-names: "Ian"
+    year: 2026
+    doi: "10.5281/zenodo.21855894"
+notes: "Mixed licence package: original research content CC0-1.0 and original code MIT. Ian Pitchford supplied research direction and is the maintainer/publisher, not the scholarly author. The public repository has been verified; this candidate record intentionally omits a release date and successor DOI until Zenodo readback is verified."
