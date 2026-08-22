@@ -1,6 +1,6 @@
 # Evidence Press integration handoff
 
-This directory is prepare-only and intentionally does not contain production URLs or identifiers that do not yet exist.
+This directory is an authoring handoff. It contains the reserved version DOI and deterministic release routes, but it does not treat those values as evidence of public availability; the production integration must replace preparation-state assurance fields only after exact asset and canonical readback.
 
 ## Proposed public identity
 

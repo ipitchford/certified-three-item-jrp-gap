@@ -1,7 +1,13 @@
 {
-  "schema": "jrp3.replay-receipt.v5",
-  "recorded_at": "2026-08-22T12:35:59Z",
-  "stage": "pre-public-identity-editor-closure",
+  "schema": "jrp3.replay-receipt.v6",
+  "recorded_at": "2026-08-22T14:18:00Z",
+  "stage": "final-identity-pre-publication",
+  "identity": {
+    "version": "0.3.1-candidate",
+    "version_doi": "10.5281/zenodo.22057665",
+    "doi_state": "reserved-draft-at-sealing",
+    "repository": "https://github.com/ipitchford/certified-three-item-jrp-gap"
+  },
   "environment": {
     "platform": "macOS-26.5.2-arm64-arm-64bit-Mach-O",
     "python": "3.14.6",
@@ -14,8 +20,8 @@
     "command": "./scripts/reproduce.sh",
     "passed": true,
     "tests": 21,
-    "test_runtime_seconds": 105.792,
-    "pipeline_runtime_seconds": 270.03,
+    "test_runtime_seconds": 105.282,
+    "pipeline_runtime_seconds": 276.60,
     "point_certificates": 3,
     "holding_box_vertices": 16,
     "verification_checks_per_point_certificate": 49
@@ -24,8 +30,8 @@
     "command": "PYTHONOPTIMIZE=2 ./scripts/reproduce.sh",
     "passed": true,
     "tests": 21,
-    "test_runtime_seconds": 106.323,
-    "pipeline_runtime_seconds": 284.66,
+    "test_runtime_seconds": 116.890,
+    "pipeline_runtime_seconds": 296.88,
     "point_certificates": 3,
     "holding_box_vertices": 16,
     "verification_checks_per_point_certificate": 49
@@ -36,7 +42,7 @@
     "generated_artifact_ledger_sha256": "e29ddecee55b00cd855751ef71d2770cf35b9f771ea1535b4441c22acfd31196",
     "absolute_workstation_paths_absent_from_machine_readable_outputs": true
   },
-  "clean_extraction": {
+  "preidentity_clean_extraction": {
     "archive_sha256": "42a6f8e93c656658ebd191c375bb0a564cfa130fdb23220b64a486594146ac5c",
     "manifest_entries_checked_before_replay": 140,
     "manifest_sha256": "8df1d9e1285efd9b4cedeae25b14246bc5667dceda832f45d85fa07164050966",
@@ -73,10 +79,10 @@
     "policy_portfolio_verification_sha256": "46df63e5380f030110595752d0e70b62c1b30b38d9b3461c3112fe5912e66cd9"
   },
   "paper": {
-    "source_sha256": "ab0a1f72ee15b802a5df3726757acfaa3dbc39eaaef16ba2afc0de21ef6a34e9",
-    "pdf_sha256": "19e57b44446c28ceefca0a841425b95b0cd0db44b1f8c07b1c8fdb7722898c6a",
+    "source_sha256": "a506561935919590063c9e39d3866355529bc95eaf925cb44addffef4c9f7d69",
+    "pdf_sha256": "da72ada86baff4f7d2a8deeae17a9a033a6e04707fedce7426792b5d1b1f00e1",
     "pages": 16,
-    "bytes": 138706,
+    "bytes": 139101,
     "raw_tex_findings": 0,
     "fonts_embedded": true,
     "tagged_pdf": false,

@@ -2,7 +2,7 @@
 
 Version `0.3.1-candidate` is an anonymous, unrefereed successor to the Evidence Press release [Certified Two-Item JRP](https://evidencepress.org/releases/certified-two-item-jrp/). It combines a candidate exact three-item independent-cap oracle for common-origin fixed-interval policies with a conservative route from model insight to logistics evaluation.
 
-Public repository: [ipitchford/certified-three-item-jrp-gap](https://github.com/ipitchford/certified-three-item-jrp-gap). The version DOI and Evidence Press release URL are inserted only after their public records pass readback.
+Public repository: [ipitchford/certified-three-item-jrp-gap](https://github.com/ipitchford/certified-three-item-jrp-gap). Reserved version DOI: [10.5281/zenodo.22057665](https://doi.org/10.5281/zenodo.22057665). Evidence Press release route: [certified-three-item-jrp-gap](https://evidencepress.org/releases/certified-three-item-jrp-gap/). Public availability must still be established by record and asset readback; the identifier alone is not publication evidence.
 
 ## Headline result
 

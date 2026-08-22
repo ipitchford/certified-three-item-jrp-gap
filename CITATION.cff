@@ -3,6 +3,8 @@ title: "A Candidate Exact Three-Item Independent-Cap Oracle: A Certified Rationa
 message: "Please cite this anonymous unrefereed candidate and its immutable parent separately."
 type: software
 version: 0.3.1-candidate
+doi: "10.5281/zenodo.22057665"
+url: "https://doi.org/10.5281/zenodo.22057665"
 repository-code: "https://github.com/ipitchford/certified-three-item-jrp-gap"
 authors:
   - name: "Anonymous"
@@ -16,4 +18,4 @@ references:
         given-names: "Ian"
     year: 2026
     doi: "10.5281/zenodo.21855894"
-notes: "Mixed licence package: original research content CC0-1.0 and original code MIT. Ian Pitchford supplied research direction and is the maintainer/publisher, not the scholarly author. The public repository has been verified; this candidate record intentionally omits a release date and successor DOI until Zenodo readback is verified."
+notes: "Mixed licence package: original research content CC0-1.0 and original code MIT. Ian Pitchford supplied research direction and is the maintainer/publisher, not the scholarly author. The DOI was reserved before byte sealing; this unrefereed candidate intentionally omits date-released because identifier reservation is not publication evidence."

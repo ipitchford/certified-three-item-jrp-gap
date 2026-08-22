@@ -4,8 +4,11 @@
 
 - Title: *A Candidate Exact Three-Item Independent-Cap Oracle: A Certified Rational Relaxation-Gap Lower Bound and Logistics Handoff*
 - Version: `0.3.1-candidate`
+- Version DOI: `10.5281/zenodo.22057665` (reserved before sealing; verify public status separately)
+- Repository: `https://github.com/ipitchford/certified-three-item-jrp-gap`
+- Evidence Press route: `https://evidencepress.org/releases/certified-three-item-jrp-gap/`
 - Creator: Anonymous
-- Status: unrefereed PASS_WITH_NOTES local candidate; approved for the publication workflow but not yet publicly released
+- Status: unrefereed PASS_WITH_NOTES identity-bearing candidate; DOI reserved and repository public, but release/deposit/page readback not yet complete at sealing
 - Parent: `https://evidencepress.org/releases/certified-two-item-jrp/`
 
 ## Fast verification route

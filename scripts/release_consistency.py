@@ -7,6 +7,7 @@ import argparse
 import json
 from pathlib import Path
 import re
+import sys
 import unittest
 
 
@@ -61,19 +62,24 @@ def load_json(relative: str) -> dict:
 
 
 def test_count() -> int:
+    source_root = str(ROOT / "src")
+    if source_root not in sys.path:
+        sys.path.insert(0, source_root)
     suite = unittest.defaultTestLoader.discover(str(ROOT / "tests"))
     return suite.countTestCases()
 
 
 def detect_stage(cff: str) -> str:
     has_own_doi = bool(re.search(r"^doi:\s*['\"]?10\.", cff, re.MULTILINE))
-    return "published" if has_own_doi else "candidate"
+    has_release_date = bool(re.search(r"^date-released:", cff, re.MULTILINE))
+    return "published" if has_own_doi and has_release_date else "candidate"
 
 
 def check(stage: str, *, allow_unsealed: bool = False) -> list[str]:
     errors: list[str] = []
     cff = read("CITATION.cff")
     observed_stage = detect_stage(cff)
+    has_own_doi = bool(re.search(r"^doi:\s*['\"]?10\.", cff, re.MULTILINE))
     if stage == "auto":
         stage = observed_stage
 
@@ -103,6 +109,8 @@ def check(stage: str, *, allow_unsealed: bool = False) -> list[str]:
         match = pattern.search(combined)
         if match:
             errors.append(f"{label}: found {match.group(0)!r}")
+    if has_own_doi and re.search(r"\bno (?:successor |version )?DOI\b", combined, re.IGNORECASE):
+        errors.append("identity contradiction: current surface says no DOI after own DOI was assigned")
 
     count = test_count()
     if count != 21:

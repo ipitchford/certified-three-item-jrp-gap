@@ -88,4 +88,4 @@ The checker was nevertheless written in the same workflow and shares parsing and
 
 ## Release boundary
 
-This is a prepare-only successor. It does not alter the immutable two-item release, and it has no successor DOI, public tag, or canonical Evidence Press page yet. Public identity and publication-integrity gates must be completed as a separate authorized action.
+This is an additive successor and does not alter the immutable two-item release. Its reserved version DOI is [10.5281/zenodo.22057665](https://doi.org/10.5281/zenodo.22057665), but DOI reservation is not evidence of a published deposit, byte-identical assets, a public tag, or a canonical Evidence Press page. Those publication-integrity gates must be completed and read back separately.

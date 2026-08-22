@@ -1,6 +1,12 @@
 {
   "schema": "jrp3.result-summary.v2",
   "date": "2026-08-22",
+  "identifiers": {
+    "version_doi": "10.5281/zenodo.22057665",
+    "repository": "https://github.com/ipitchford/certified-three-item-jrp-gap",
+    "evidence_press_route": "https://evidencepress.org/releases/certified-three-item-jrp-gap/",
+    "doi_state_at_sealing": "reserved-not-yet-publicly-read-back"
+  },
   "status": "anonymous_unrefereed_prepare_only_candidate",
   "scope": "three-item continuous-time stationary periodic joint replenishment with independent rational frequency caps",
   "candidate_theorems": [

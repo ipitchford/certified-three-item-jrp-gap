@@ -96,11 +96,11 @@
   },
   "github": {
     "assets": [],
-    "ciStatus": null,
-    "mainCommit": null,
-    "releaseUrl": null,
+    "ciStatus": "in-progress-at-identity-reservation",
+    "mainCommit": "e869037eba0f44835f2ad7deeb0639b0c628cd19",
+    "releaseUrl": "https://github.com/ipitchford/certified-three-item-jrp-gap/releases/tag/v0.3.1-candidate",
     "repository": "https://github.com/ipitchford/certified-three-item-jrp-gap",
-    "tag": null,
+    "tag": "v0.3.1-candidate",
     "tagPayloadCommit": null
   },
   "integrityGate": {
@@ -260,11 +260,11 @@
   "zenodo": {
     "assetsByteIdentical": null,
     "conceptDoi": null,
-    "depositionId": null,
+    "depositionId": 22057665,
     "instance": "https://zenodo.org",
-    "recordId": null,
-    "recordUrl": null,
-    "status": null,
-    "versionDoi": null
+    "recordId": 22057665,
+    "recordUrl": "https://doi.org/10.5281/zenodo.22057665",
+    "status": "reserved-draft-at-identity-sealing",
+    "versionDoi": "10.5281/zenodo.22057665"
   }
 }

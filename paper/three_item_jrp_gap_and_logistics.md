@@ -474,6 +474,8 @@ Publisher-linked source-use notes and the corrected pairwise-alignment DOI are m
 
 All original instance data, source code, certificates, review records, exact replay instructions, and the generated paper are included in the versioned public package. Cited papers and other third-party works are linked but not redistributed. The release archive and manifest are the governing byte boundary.
 
+The versioned source is maintained at <https://github.com/ipitchford/certified-three-item-jrp-gap> and the reserved version DOI is <https://doi.org/10.5281/zenodo.22057665>. A reserved identifier does not by itself establish deposit publication or byte identity; those facts are recorded only after public readback.
+
 # Ethics statement
 
 This mathematical and software study used no human participants, personal data, animals, or clinical intervention. The proposed future field protocol is not evidence that a field study has occurred; any implementation involving workers, customers, or personal/operational data requires the relevant organisational, privacy, labour, and research-ethics approvals before collection or assignment.

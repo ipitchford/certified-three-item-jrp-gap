@@ -2,11 +2,11 @@
 
 ## Research decision
 
-**PASS_WITH_NOTES after bounded Editor closure.** The single confirmation review returned Major Revision with no P0 and six consolidated P1 groups. Version 0.3.1 now closes those groups through exact redundant-value binding, proof-bound certificate schema v2, complete primitive-plus-boundary portfolio reconstruction, a 61-file generated-byte ledger, package/PDF reconciliation, and a complete review ledger. Ordinary, optimized, and fresh-extraction replays each pass 21 tests; ordinary and optimized outputs match the same 61 hashes, and the pre-identity extraction passed a 140-entry manifest. The failed confirmation remains preserved; `reviews/confirmation/DETERMINISTIC_REPAIR_CLOSURE.md` is Editor verification, not a third scientific review.
+**PASS_WITH_NOTES after bounded Editor closure.** The single confirmation review returned Major Revision with no P0 and six consolidated P1 groups. Version 0.3.1 now closes those groups through exact redundant-value binding, proof-bound certificate schema v2, complete primitive-plus-boundary portfolio reconstruction, a 61-file generated-byte ledger, package/PDF reconciliation, and a complete review ledger. Final-identity ordinary and optimized replays each pass 21 tests and match the same 61 hashes; an earlier clean extraction passed 21 tests against its 140-entry pre-identity manifest. The final archive extraction is necessarily recorded outside the archive after sealing. The failed confirmation remains preserved; `reviews/confirmation/DETERMINISTIC_REPAIR_CLOSURE.md` is Editor verification, not a third scientific review.
 
 ## Publication decision
 
-**APPROVED TO ENTER THE PUBLICATION WORKFLOW at PASS_WITH_NOTES.** GitHub, Zenodo, immutable archive, Evidence Press authoring, deployment, and canonical readback remain separate required gates. Until they pass, this is a local unrefereed candidate with no successor DOI, public tag, or canonical release page.
+**APPROVED TO ENTER THE PUBLICATION WORKFLOW at PASS_WITH_NOTES.** The public repository exists and version DOI `10.5281/zenodo.22057665` is reserved, but reservation is not publication. Immutable archive, GitHub release, Zenodo asset equality/publication, Evidence Press deployment, and canonical readback remain separate required gates. Until they pass, this remains an unrefereed candidate with no verified public tag, published deposit, or canonical release page.
 
 ## Certified candidate lower bound
 
